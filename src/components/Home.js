@@ -100,7 +100,7 @@ export default function Home() {
           {
             Testimonials.map((test) => (
               <div key={test.id} className="border-myPortfolio-circle border rounded-md p-2 mt-20 mb-12 relative text-start">
-                <img src={test.personPicture} alt={test.personName} className="personCard  origin-left -rotate-12 rounded-md border-myPortfolio-circle border h-32 absolute left-2/4 -translate-x-2/4" />
+                <img src={test.personPicture} alt={test.personName} className="personCard  origin-left -rotate-12 rounded-md border-myPortfolio-circle border h-28 absolute -translate-x-2/4" />
                 <p className="mt-16 text-sm">{test.testimonial}</p>
                 <h1 className="mt-2 text-sm">
                   <span className="font-medium">
