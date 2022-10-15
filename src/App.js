@@ -5,7 +5,7 @@ import './index.css';
 
 export default function App() {
   return (
-    <div className="container-fluid h-screen bg-myPortfolio">
+    <div className="container-fluid relative bg-myPortfolio">
       <Navigation />
       <Home />
     </div>
