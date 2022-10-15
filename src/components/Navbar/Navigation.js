@@ -15,7 +15,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="NavItems flex justify-between items-center nav w-full h-auto px-2 py-4 md:px-32 bg-myPortfolio">
+    <nav className="NavItems flex justify-between items-center nav w-full h-auto px-2 py-4 md:px-32 fixed bg-myPortfolio">
       <a href="/" className="nav-logo">
         <img src={logo} alt="logo" className="w-24 md:w-32" />
       </a>
