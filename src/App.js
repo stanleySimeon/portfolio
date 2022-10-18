@@ -13,8 +13,8 @@ export default function App() {
       <Home />
       <About />
       <Portfolio />
-      <Contact />
       <Testimonial />
+      <Contact />
     </div>
   );
 }

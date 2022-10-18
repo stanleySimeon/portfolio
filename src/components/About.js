@@ -6,7 +6,7 @@ import mePicture from '../assets/about-me-picture1.png';
 
 export default function About() {
   return (
-    <section id="About" className="container-fluid w-full h-auto px-4 md:px-32 py-16 flex flex-col justify-center items-center bg-black">
+    <section id="About" className="container-fluid w-full h-auto px-4 md:px-32 py-16 md:pt-32 flex flex-col justify-center items-center bg-black">
       <div className="bg md:flex justify-between md:gap-6 md:mb-12">
         <div className="hidden md:flex about-me-picture-desktop md:w-6/12 md:h-72 md:bg-gray-600 rounded">
           <img src={mePicture} alt="Stanley SIMEON" className="w-full h-full object-cover rounded" />
@@ -33,7 +33,7 @@ export default function About() {
               {
                 socialMedia.map((social) => (
                   <a href={social.link} target="_blank" rel="noreferrer" key={social.id}>
-                    <FontAwesomeIcon icon={social.icon} size="2x" className="text-myPortfolio-white w-6" />
+                    <FontAwesomeIcon icon={social.icon} size="2x" className="text-myPortfolio-white w-6 hover:animate-spin" />
                   </a>
                 ))
               }
