@@ -34,9 +34,11 @@ module.exports = {
           blueLighter: '#003C92',
           blueLightest: '#004FB9',
           white: '#FFFFFF',
+          grayLight: '#DCDCDC',
           secondaryButton: '#F5F5F5',
           circle: '#0A4EFB',
           bgCard: 'rgba(10, 78, 251, 0.05)',
+          secondaryText: '#1C88C7',
         },
       },
       container: {

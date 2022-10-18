@@ -1,3 +1,11 @@
+import {
+  faFacebookSquare,
+  faGithubSquare,
+  faLinkedin,
+  faTwitterSquare,
+  faAngellist,
+} from '@fortawesome/free-brands-svg-icons';
+
 const Data = [
   {
     id: 1,
@@ -75,6 +83,42 @@ export const Testimonials = [
     testimonial: 'This is a testimonial for To Do List project 6 by Stanley Simeon 2021 - 2022 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     personPicture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmA_PNznQW8wSrgIaJYv8rrBH-OP9-G9hhw&usqp=CAU',
     status: 'Full-stack Developer',
+  },
+];
+
+export const socialMedia = [
+  {
+    id: 1,
+    icon: faGithubSquare,
+    link: 'https://github.com/stanleySimeon',
+  },
+  {
+    id: 2,
+    icon: faLinkedin,
+    link: 'https://www.linkedin.com/in/stanleysimeon/',
+  },
+  {
+    id: 3,
+    icon: faTwitterSquare,
+    link: 'https://twitter.com/mstanleyme',
+  },
+  {
+    id: 4,
+    icon: faFacebookSquare,
+    link: 'https://www.facebook.com/simeonmartialstanley',
+  },
+  {
+    id: 5,
+    icon: faAngellist,
+    link: 'https://angel.co/u/stanleysimeon',
+  },
+];
+
+export const skills = [
+  {
+    id: 1,
+    logo: '../assets/skillsLogo/html.png',
+    name: 'HTML',
   },
 ];
 
