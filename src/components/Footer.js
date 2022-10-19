@@ -49,7 +49,7 @@ export default function Footer() {
           <div className="text-myPortfolio-grayLight flex flex-col justify-center mt-4">
             <span className="text-xl hidden md:flex text-gray-600">Email: mstanley.me@gmail.com</span>
             <span className="text-xl hidden md:flex text-gray-600">Phone: +(509)440-256-51</span>
-            <button type="button" className="btn bg-myPortfolio-logo text-white px-2 md:px-4 py-2 text-xl mt-4 rounded-sm">GET MY RESUME</button>
+            <button type="button" className="w-48 btn bg-myPortfolio-logo text-white px-2 md:px-4 py-2 text-xl mt-4 rounded-sm">GET MY RESUME</button>
           </div>
         </div>
       </div>

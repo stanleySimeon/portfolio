@@ -5,6 +5,7 @@ import {
   faTwitterSquare,
   faAngellist,
 } from '@fortawesome/free-brands-svg-icons';
+// import path from 'path';
 
 const Data = [
   {
@@ -99,7 +100,7 @@ export const socialMedia = [
 export const Languages = [
   {
     id: 1,
-    logo: '../assets/skillsLogo/html.svg',
+    // logo: path.resolve(__dirname, 'assets/logo', 'html.svg'),
     name: 'HTML',
   },
   {
