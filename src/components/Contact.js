@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <section id="Contact" className="contact container-fluid py-16 px-4 md:px-32 md:flex justify-center">
+    <section id="Contact" className="contact container-fluid py-16 px-4 md:px-32  md:pt-32 md:flex justify-center">
       <div className="contact__container w-full md:w-7/12 flex flex-col justify-center items-center">
         <div className="w-full flex flex-col justify-center items-center text-center text-myPortfolio-white mb-10">
           <div className="flex flex-col justify-center items-center mb-6 md:mb-16">

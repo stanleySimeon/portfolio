@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../../assets/default-monochrome-white.svg';
 import LogoIcon from '../../assets/default-monochrome-icon.svg';
+import resume from '../../assets/files/Stanley_SIMEON_Resume.pdf';
 
 export default function Navbar() {
   if (window.innerWidth >= 768) {
@@ -66,7 +67,7 @@ export default function Navbar() {
           <li className="py-1 px-4 bg-myPortfolio-logo hover:bg-white hover:text-myPortfolio-logo rounded-sm">
             <a
               target="_blank"
-              href="../files/Stanley_SIMEON_Resume.pdf"
+              href={resume}
               rel="noreferrer"
             >
               RESUME
@@ -79,7 +80,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="wow fadeInDown Navbar backdrop-blur-sm w-full h-auto fixed left-0 top-0 z-50 py-4">
+    <header className="wow fadeInDown Navbar bg-black w-full h-auto fixed left-0 top-0 z-50 py-4">
       <nav className="Nav-container w-full flex justify-between items-center px-4 md:px-32">
         <div className="Nav-logo w-32 cursor-pointer">
           <Link style={pathname === '/' ? focus : {}} smooth duration={100} className="link hidden md:flex" to="Home"><img className="logo" src={Logo} alt="logo" /></Link>
@@ -127,7 +128,7 @@ export default function Navbar() {
           <li className="py-1 px-4 bg-myPortfolio-logo hover:bg-white hover:text-myPortfolio-logo rounded-sm">
             <a
               target="_blank"
-              href="../files/Stanley_SIMEON_Resume.pdf"
+              href={resume}
               rel="noreferrer"
             >
               RESUME

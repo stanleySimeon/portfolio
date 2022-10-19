@@ -24,7 +24,7 @@ export default function About() {
             </h1>
             <span className="w-12 md:hidden h-1 bg-myPortfolio-logo" />
           </div>
-          <p className="wow slideInRight text-myPortfolio-grayLight text-center md:text-start text-xl font-light mt-6 md:mt-3">
+          <p className="wow bounceIn text-myPortfolio-grayLight text-center md:text-start text-xl font-light mt-6 md:mt-3">
             <strong>Self-taught Full-Stack Developer</strong>
             <br />
             <span className="text-green-500 md:p-1 md:bg-gray-900 rounded">
