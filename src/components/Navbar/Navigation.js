@@ -117,10 +117,10 @@ export default function Navbar() {
               CONTACT
             </Link>
           </li>
-          <li className="py-1 px-4 bg-myPortfolio-logo hover:bg-white hover:text-myPortfolio-logo">
+          <li className="py-1 px-4 bg-myPortfolio-logo hover:bg-white hover:text-myPortfolio-logo rounded-sm">
             <a
               target="_blank"
-              href="https://docs.google.com/document/d/1vgkAh5mW9u_2YQrT0An5NfFqqgCTacWBIUdvVgSWoio"
+              href="../files/Stanley_SIMEON_Resume.pdf"
               rel="noreferrer"
             >
               RESUME

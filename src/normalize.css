@@ -17,7 +17,7 @@
   }
 }
 
-#Portfolio .bar {
+#Portfolio #Footer, .bar {
   height: 1px;
 }
 
@@ -84,11 +84,4 @@ ul.thumbs,
   position: absolute !important;
   height: 20px !important;
   margin-bottom: 20px !important;
-}
-
-button .control-arrow {
-  width: 10px;
-  height: 10px;
-  border-radius: 100% !important;
-  background-color: red;
 }

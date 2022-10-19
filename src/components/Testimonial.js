@@ -20,7 +20,7 @@ export default function Testimonial() {
           Testimonials.map((test) => (
             <div key={test.id} className="border-myPortfolio-circle border rounded-md p-2 md:p-8 mt-20 md:mt-28 mb-12 md:mb-16 relative text-start">
               <img src={test.personPicture} alt={test.personName} className="personCard  origin-left -rotate-12 rounded-md border-myPortfolio-circle border h-28 absolute -translate-x-2/4" />
-              <p className="mt-14 md:mt-20 mb-4 text-xl">{test.testimonial}</p>
+              <p className="mt-14 md:mt-20 mb-4 text-xl md:text-gray-400">{test.testimonial}</p>
               <h1 className="text-xl mb-4">
                 <span className="font-medium text-orange-700">
                   {test.personName}

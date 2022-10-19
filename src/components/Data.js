@@ -96,11 +96,129 @@ export const socialMedia = [
   },
 ];
 
+export const Languages = [
+  {
+    id: 1,
+    logo: '../assets/skillsLogo/html.svg',
+    name: 'HTML',
+  },
+  {
+    id: 2,
+    logo: '../assets/skillsLogo/css.png',
+    name: 'CSS',
+  },
+  {
+    id: 3,
+    logo: '../assets/skillsLogo/javascript.png',
+    name: 'JavaScript',
+  },
+  {
+    id: 4,
+    logo: '../assets/skillsLogo/react.png',
+    name: 'React',
+  },
+  {
+    id: 5,
+    logo: '../assets/skillsLogo/redux.png',
+    name: 'Redux',
+  },
+  {
+    id: 6,
+    logo: '../assets/skillsLogo/ruby.png',
+    name: 'Ruby',
+  },
+  {
+    id: 7,
+    logo: '../assets/skillsLogo/rails.png',
+    name: 'Rails',
+  },
+  {
+    id: 8,
+    logo: '../assets/skillsLogo/postgresql.png',
+    name: 'PostgreSQL',
+  },
+  {
+    id: 9,
+    logo: '../assets/skillsLogo/Tailwind.png',
+    name: 'Tailwind CSS',
+  },
+];
+
 export const skills = [
   {
     id: 1,
-    logo: '../assets/skillsLogo/html.png',
-    name: 'HTML',
+    logo: '../assets/skillsLogo/git.png',
+    name: 'Git',
+  },
+  {
+    id: 2,
+    logo: '../assets/skillsLogo/github.png',
+    name: 'Github',
+  },
+  {
+    id: 3,
+    logo: '../assets/skillsLogo/heroku.png',
+    name: 'Heroku',
+  },
+  {
+    id: 4,
+    logo: '../assets/skillsLogo/webpack.png',
+    name: 'Webpack',
+  },
+  {
+    id: 5,
+    logo: '../assets/skillsLogo/npm.png',
+    name: 'NPM',
+  },
+  {
+    id: 6,
+    logo: '../assets/skillsLogo/yarn.png',
+    name: 'Yarn',
+  },
+  {
+    id: 7,
+    logo: '../assets/skillsLogo/babel.png',
+    name: 'Babel',
+  },
+  {
+    id: 8,
+    logo: '../assets/skillsLogo/eslint.png',
+    name: 'ESLint',
+  },
+  {
+    id: 9,
+    logo: '../assets/skillsLogo/stylelint.png',
+    name: 'StyleLint',
+  },
+  {
+    id: 10,
+    logo: '../assets/skillsLogo/jest.png',
+    name: 'Jest',
+  },
+  {
+    id: 12,
+    logo: '../assets/skillsLogo/rubocop.png',
+    name: 'Rubocop',
+  },
+  {
+    id: 11,
+    logo: '../assets/skillsLogo/terminal.png',
+    name: 'Terminal',
+  },
+  {
+    id: 13,
+    logo: '../assets/skillsLogo/netlify.png',
+    name: 'Netlify',
+  },
+  {
+    id: 14,
+    logo: '../assets/skillsLogo/figma.png',
+    name: 'Figma',
+  },
+  {
+    id: 15,
+    logo: '../assets/skillsLogo/photoshop.png',
+    name: 'Photoshop',
   },
 ];
 

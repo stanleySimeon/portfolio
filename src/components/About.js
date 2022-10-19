@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { socialMedia, skills } from './Data';
+import { socialMedia, Languages } from './Data';
 import mePicture from '../assets/about-me-picture1.png';
 
 export default function About() {
@@ -43,9 +43,9 @@ export default function About() {
       </div>
       <div className="hidden w-full md:flex flex-wrap">
         {
-          skills.map((skill) => (
-            <div key={skill.id} className="flex flex-col justify-center items-center gap-6">
-              <img src={skill.logo} alt={skill.name} className="text-myPortfolio-white h-12" />
+          Languages.map((lang) => (
+            <div key={lang.id} className="flex flex-col justify-center items-center gap-6">
+              <img src={lang.logo} alt={lang.name} className="text-myPortfolio-white h-12" />
             </div>
           ))
         }
