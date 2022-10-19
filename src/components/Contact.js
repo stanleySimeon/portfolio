@@ -11,7 +11,7 @@ export default function Contact() {
             </h1>
             <span className="w-12 h-1 bg-myPortfolio-logo md:bg-myPortfolio-white" />
           </div>
-          <p className="text-xl">
+          <p className="text-xl hover:animate-pulse">
             If you have an application you are interested in developing,
             a feature that you need built or a project that needs coding.
             I’d love to help with it
@@ -20,7 +20,7 @@ export default function Contact() {
         <form action="https://formspree.io/f/xpzbqlab" method="POST" autoComplete="off" id="contact-form" className="w-full h-auto flex flex-col justify-center items-center gap-4 col text-myPortfolio-white">
           <label htmlFor="name" className="w-full flex flex-col gap-2">
             <span className="text-xl">Name</span>
-            <input type="text" name="name" placeholder="Full Name" required id="name" className="w-full bg-transparent text-xl border-blue-50 outline-none" />
+            <input type="text" name="name" placeholder="Full Name" required id="name" className="w-full bg-transparent text-xl border-blue-50 focus:none outline-none" />
           </label>
           <label htmlFor="email" className="w-full flex flex-col gap-2">
             <span className="text-xl">Email</span>

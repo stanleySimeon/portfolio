@@ -72,7 +72,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="Navbar bg-black w-full h-auto fixed left-0 top-0 z-50 py-4">
+    <header className="Navbar backdrop-blur-sm w-full h-auto fixed left-0 top-0 z-50 py-4">
       <nav className="Nav-container w-full flex justify-between items-center px-4 md:px-32">
         <div className="Nav-logo w-32 cursor-pointer">
           <Link style={pathname === '/' ? focus : {}} smooth duration={100} className="link hidden md:flex" to="Home"><img className="logo" src={Logo} alt="logo" /></Link>
