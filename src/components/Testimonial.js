@@ -5,20 +5,29 @@ import { Testimonials } from './Data';
 
 export default function Testimonial() {
   return (
-    <section id="Testimonial" className=" bg-black container-fluid w-full h-auto md:px-32 py-6 flex flex-col md:flex-row md:justify-between md:items-start justify-center items-center px-4 md:gap-12">
-      <div className="md:w-6/12 flex flex-col justify-center items-start md:mb-6 mb-16 gap-4">
-        <h1 className="text-gray-600 text-xl font-normal uppercase">
+    <section id="Testimonial" className="bg-black container-fluid w-full h-auto px-4 md:px-16 lg:px-32 py-6 flex flex-col md:flex-row md:justify-between justify-center items-center">
+      <div className="w-full md:w-9/12 lg:w-7/12 flex flex-col justify-center md:justify-start items-start md:mb-6 mb-16">
+        <h1 className="text-gray-600 text-xl font-normal uppercase pb-6">
           Testimonials
         </h1>
-        <h1 className="wow bounceIn text-white text-4xl md:text-7xl font-bold">What people say about me.</h1>
+        <h1 className="wow bounceIn text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold">
+          What
+          {' '}
+          <span className="text-orange-600">people</span>
+          {' '}
+          say about
+          {' '}
+          <span className="text-myPortfolio-logo">me</span>
+          .
+        </h1>
       </div>
       <Carousel
-        className="carouse md:w-full md:h-auto slide relative w-full text-white"
+        className="carouse md:w-7/12 lg:w-8/12 md:h-auto slide relative w-full text-white"
         data-bs-ride="carousel"
       >
         {
           Testimonials.map((test) => (
-            <div key={test.id} className="md:h-auto md:w-auto text-start cursor-default px-6 md:px-8">
+            <div key={test.id} className="md:h-auto text-start cursor-default px-6 md:px-8">
               <img src={test.personPicture} alt={test.personName} className="personCard h-12 rounded-full mb-4" />
               <p className="mb-4 text-md md:text-gray-400">{test.testimonial}</p>
               <h1 className="text-xl mb-4">

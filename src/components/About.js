@@ -6,22 +6,22 @@ import mePicture from '../assets/about-me-picture1.png';
 
 export default function About() {
   return (
-    <section id="About" className="container-fluid w-full h-auto px-4 md:px-32 py-16 md:pt-32 flex flex-col justify-center items-center bg-black">
+    <section id="About" className="container-fluid w-full h-auto px-4 md:px-16 lg:px-32 py-16 md:pt-32 flex flex-col justify-center items-center bg-black">
       <div className="bg md:flex justify-between md:gap-6 md:mb-12">
         <div className="hidden wow slideInLeft md:flex about-me-picture-desktop md:w-6/12 md:h-72 md:bg-gray-600 rounded">
           <img src={mePicture} alt="Stanley SIMEON" className="w-full h-full object-cover rounded" />
         </div>
-        <div className="md:w-full md:flex md:flex-col justify-start z-10">
-          <div className="flex flex-col justify-center md:justify-start items-center md:items-start mb-6 md:mb-0 mt-12 md:mt-0">
-            <h1 className="wow bounceInDown text-myPortfolio-white text-2xl md:text-4xl font-normal uppercase">
+        <div className="md:w-full md:flex md:flex-col justify-start z-10 backdrop-blur-3xl backdrop-brightness-100 backdrop-opacity-90 p-4 md:backdrop-blur-0">
+          <div className="flex flex-col justify-center md:justify-start items-center md:items-start mb-8 md:mb-0 mt-12 md:mt-0">
+            <h1 className="wow bounceInDown text-myPortfolio-white text-3xl md:text-4xl font-normal md:font-bold uppercase">
               About me
             </h1>
             <span className="w-12 md:hidden h-1 bg-myPortfolio-logo" />
           </div>
-          <p className="wow bounceIn text-myPortfolio-grayLight text-center md:text-start text-xl font-light mt-6 md:mt-3">
+          <p className="wow bounceIn text-gray-400 text-center md:text-start text-md lg:text-xl font-light mt-6 md:mt-3">
             <strong>Self-taught Full-Stack Developer</strong>
             <br />
-            <span className="text-green-500 md:p-1 md:bg-gray-900 rounded">
+            <span className="text-green-500 md:p-1 rounded">
               Javascript | React & Redux | Ruby | Ruby on Rails | HTML/CSS
             </span>
             <br />

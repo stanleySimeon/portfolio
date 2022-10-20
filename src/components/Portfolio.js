@@ -12,32 +12,34 @@ export default class About extends Component {
 
   render() {
     return (
-      <section id="Portfolio" className="container-fluid w-full h-auto px-4 md:px-32 py-16 md:pt-28 flex flex-col justify-center items-center">
-        <div className="flex flex-col justify-center items-center mb-6 md:mb-16">
-          <h1 className="text-myPortfolio-white text-2xl md:text-4xl font-normal uppercase">
-            Explore my work
+      <section id="Portfolio" className="container-fluid w-full h-auto px-4 lg:px-32 md:px-16 py-16 md:pt-28 flex flex-col justify-center items-center">
+        <div className="w-full flex flex-col md:flex-row justify-center md:justify-start items-center md:items-baseline md:gap-4 mb-6 md:mb-16">
+          <h1 className="text-myPortfolio-white text-5xl md:text-7xl lg:text-8xl font-normal md:font-bold">
+            Explore my
+            {' '}
+            <span className="text-orange-600">works.</span>
           </h1>
-          <span className="w-12 h-1 bg-myPortfolio-logo" />
+          <span className="w-12 hidden md:w-52 h-1 bg-myPortfolio-logo" />
         </div>
-        <div className="">
+        <div className="flex w-full flex-col justify-center items-center">
           {
             Data.map((data) => (
-              <li key={data.id} className="wow fadeInUp w-full h-auto md:flex md:justify-center border-myPortfolio-circle md:border-none md:bg-myPortfolio bg-myPortfolio-bgCard border px-2 pt-2 pb-6 md:mb-16 mb-10 md:gap-8 rounded-md list-none shadow-md md:odd:flex md:even:flex-row-reverse">
-                <div className="w-full flex flex-col gap-2 mb-4 md:flex-col-reverse">
+              <li key={data.id} className="wow fadeInUp h-auto md:w-full lg:w-full md:flex md:justify-center border-myPortfolio-circle md:border-none md:bg-myPortfolio bg-myPortfolio-bgCard border px-2 md:px-0 pt-2 pb-6 md:mb-16 mb-10 md:gap-4 lg:gap-8 rounded-md list-none shadow-md md:odd:flex md:even:flex-row-reverse">
+                <div className="w-full md:w-6/12 lg:w-full flex flex-col gap-2 mb-4 md:flex-col-reverse">
                   <img src={data.image} alt={data.title} className="rounded md:border md:border-myPortfolio-circle" />
                   <div className="md:flex md:justify-start md:items-baseline md:gap-2">
-                    <span className="bar hidden md:flex w-32 bg-myPortfolio-white" />
+                    <span className="bar hidden md:flex w-32 lg:w-52 bg-myPortfolio-white" />
                     <h1 className="text-myPortfolio-white md:text-myPortfolio-secondaryText text-lg md:text-2xl font-bold uppercase">{data.title}</h1>
                   </div>
                 </div>
-                <div className="w-full flex flex-col md:py-8">
-                  <p className="text-myPortfolio-secondaryButton text-xl text-light">{data.description}</p>
-                  <span className="hidden md:flex gap-4 md:mt-6">
+                <div className="w-full md:w-6/12 lg:w-full flex flex-col lg:py-8">
+                  <p className="text-gray-400 text-md lg:text-xl text-light md:mt-8 lg:mt-2">{data.description}</p>
+                  <span className="hidden md:flex gap-2 md:mt-6">
                     {data.technologies.map((tech) => (
-                      <span key={tech} className="text-myPortfolio-white text-lg font-normal bg-myPortfolio-logo px-4 rounded-sm wow bounceInUp">{tech}</span>
+                      <span key={tech} className="text-myPortfolio-white text-sm lg:text-md md:px-1 lg:px-2 font-normal bg-myPortfolio-logo rounded-sm wow bounceInUp">{tech}</span>
                     ))}
                   </span>
-                  <div className="w-full flex justify-center items-center md:justify-start gap-4 mt-4 md:mt-6 font-normal">
+                  <div className="flex justify-center items-center md:justify-start gap-4 mt-4 md:mt-6 font-normal">
                     <span className="w-32 py-2 px-2 bg-myPortfolio-white text-center text-myPortfolio-logo hover:animate-pulse">
                       <a href={data.liveLink} target="_blank" rel="noreferrer">LIVE DEMO</a>
                     </span>

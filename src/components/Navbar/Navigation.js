@@ -20,7 +20,7 @@ export default function Navbar() {
   if (isOpen) {
     menu = (
       <>
-        <ul className="Nav-links-mobile fixed top-0 left-0 h-screen w-full flex flex-col justify-center items-center gap-8 bg-myPortfolio">
+        <ul className="Nav-links-mobile user-select-none fixed top-0 left-0 h-screen w-full flex flex-col justify-center items-center gap-8 bg-myPortfolio">
           <li>
             <Link
               style={pathname === '/About' ? focus : {}}
@@ -74,7 +74,7 @@ export default function Navbar() {
 
   return (
     <header className="wow fadeInDown Navbar bg-black w-full h-auto fixed left-0 top-0 z-50 py-4">
-      <nav className="Nav-container w-full flex justify-between items-center px-4 md:px-32">
+      <nav className="Nav-container w-full flex justify-between items-center px-4 md:px-16 lg:px-32">
         <div className="Nav-logo w-32 cursor-pointer">
           <Link style={pathname === '/' ? focus : {}} smooth duration={100} className="link hidden md:flex" to="Home"><img className="logo" src={Logo} alt="logo" /></Link>
           <Link style={pathname === '/' ? focus : {}} smooth duration={100} className="link md:hidden" to="Home"><img className="logo" src={LogoIcon} alt="logo" /></Link>
@@ -84,7 +84,7 @@ export default function Navbar() {
           {menu}
           {close}
         </span>
-        <ul className="Nav-links hidden md:flex items-center md:gap-12">
+        <ul className="Nav-links user-select-none hidden md:flex items-center md:gap-12">
           <li>
             <Link
               style={pathname === '/About' ? focus : {}}
