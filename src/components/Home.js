@@ -6,7 +6,7 @@ export default function Home() {
     <section id="Home" className="container-fluid w-full h-screen px-4 md:mt-0 md:px-16 lg:px-32 flex flex-col justify-center">
       <Navbar />
       <div className="md:w-10/12 lg:w-8/12 md:bg-blue">
-        <h1 className="wow bounceInLeft text-white text-4xl  md:text-6xl lg:text-8xl font-bold">
+        <h1 className="wow bounceInLeft text-white text-5xl  md:text-7xl lg:text-8xl font-bold">
           I&#39;m Stanley
           <br />
           Glad to see you!

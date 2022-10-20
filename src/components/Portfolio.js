@@ -14,10 +14,11 @@ export default class About extends Component {
     return (
       <section id="Portfolio" className="container-fluid w-full h-auto px-4 lg:px-32 md:px-16 py-16 md:pt-28 flex flex-col justify-center items-center">
         <div className="w-full flex flex-col md:flex-row justify-center md:justify-start items-center md:items-baseline md:gap-4 mb-6 md:mb-16">
-          <h1 className="text-myPortfolio-white text-5xl md:text-7xl lg:text-8xl font-normal md:font-bold">
+          <h1 className="text-myPortfolio-white text-6xl md:text-7xl lg:text-8xl font-normal md:font-bold">
             Explore my
             {' '}
-            <span className="text-orange-600">works.</span>
+            <span className="text-orange-600">works</span>
+            .
           </h1>
           <span className="w-12 hidden md:w-52 h-1 bg-myPortfolio-logo" />
         </div>

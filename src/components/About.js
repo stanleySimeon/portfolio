@@ -11,14 +11,15 @@ export default function About() {
         <div className="hidden wow slideInLeft md:flex about-me-picture-desktop md:w-6/12 md:h-72 md:bg-gray-600 rounded">
           <img src={mePicture} alt="Stanley SIMEON" className="w-full h-full object-cover rounded" />
         </div>
-        <div className="md:w-full md:flex md:flex-col justify-start z-10 backdrop-blur-3xl backdrop-brightness-100 backdrop-opacity-90 p-4 md:backdrop-blur-0">
-          <div className="flex flex-col justify-center md:justify-start items-center md:items-start mb-8 md:mb-0 mt-12 md:mt-0">
-            <h1 className="wow bounceInDown text-myPortfolio-white text-3xl md:text-4xl font-normal md:font-bold uppercase">
+        <div className="md:w-full md:flex md:flex-col justify-start z-10 backdrop-blur-3xl backdrop-brightness-100 backdrop-opacity-90 p-0 md:backdrop-blur-0 md:-mt-2">
+          <div className="flex flex-col justify-center md:justify-start md:items-start mb-8 md:mb-0 mt-8 md:mt-0">
+            <h1 className="wow bounceInDown text-myPortfolio-white text-6xl md:text-7xl font-normal md:font-bold">
               About me
+              <span className="text-orange-600">.</span>
             </h1>
-            <span className="w-12 md:hidden h-1 bg-myPortfolio-logo" />
+            <span className="w-32 bar md:hidden h-1 bg-myPortfolio-logo" />
           </div>
-          <p className="wow bounceIn text-gray-400 text-center md:text-start text-md lg:text-xl font-light mt-6 md:mt-3">
+          <p className="wow bounceIn text-gray-400 text-start md:text-start text-md lg:text-xl font-light mt-6 md:mt-3">
             <strong>Self-taught Full-Stack Developer</strong>
             <br />
             <span className="text-green-500 md:p-1 rounded">
