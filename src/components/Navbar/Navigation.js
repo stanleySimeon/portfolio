@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import WOW from 'wowjs';
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -9,12 +8,6 @@ import LogoIcon from '../../assets/default-monochrome-icon.svg';
 import resume from '../../assets/files/Stanley_SIMEON_Resume.pdf';
 
 export default function Navbar() {
-  if (window.innerWidth >= 768) {
-    new WOW.WOW().init({
-      mobile: false,
-    });
-  }
-
   const { pathname } = useLocation();
   const focus = {
     opacity: 1,
@@ -49,7 +42,7 @@ export default function Navbar() {
               className="link"
               to="Portfolio"
             >
-              PORTFOLIO
+              WORKS
             </Link>
           </li>
           <li>
@@ -70,7 +63,7 @@ export default function Navbar() {
               href={resume}
               rel="noreferrer"
             >
-              RESUME
+              GET MY RESUME
             </a>
           </li>
         </ul>
@@ -111,7 +104,7 @@ export default function Navbar() {
               className="link"
               to="Portfolio"
             >
-              PORTFOLIO
+              WORKS
             </Link>
           </li>
           <li>
@@ -131,7 +124,7 @@ export default function Navbar() {
               href={resume}
               rel="noreferrer"
             >
-              RESUME
+              GET MY RESUME
             </a>
           </li>
         </ul>

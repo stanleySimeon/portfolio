@@ -1,11 +1,7 @@
 import React from 'react';
-import WOW from 'wowjs';
 import Navbar from './Navbar/Navigation';
 
 export default function Home() {
-  if (typeof window !== 'undefined') {
-    new WOW.WOW().init();
-  }
   return (
     <section id="Home" className="container-fluid w-full h-screen px-4 md:mt-0 md:px-32 flex flex-col justify-center">
       <Navbar />

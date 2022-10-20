@@ -1,16 +1,10 @@
 /* eslint-disable max-len */
 import React from 'react';
-import WOW from 'wowjs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { socialMedia, Languages } from './Data';
 import mePicture from '../assets/about-me-picture1.png';
 
 export default function About() {
-  if (typeof window !== 'undefined') {
-    new WOW.WOW().init({
-      mobile: false,
-    });
-  }
   return (
     <section id="About" className="container-fluid w-full h-auto px-4 md:px-32 py-16 md:pt-32 flex flex-col justify-center items-center bg-black">
       <div className="bg md:flex justify-between md:gap-6 md:mb-12">

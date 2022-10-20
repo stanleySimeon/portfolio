@@ -3,18 +3,19 @@ import React from 'react';
 export default function Contact() {
   return (
     <section id="Contact" className="contact container-fluid py-16 px-4 md:px-32  md:pt-32 md:flex justify-center">
-      <div className="contact__container w-full md:w-7/12 flex flex-col justify-center items-center">
-        <div className="w-full flex flex-col justify-center items-center text-center text-myPortfolio-white mb-10">
-          <div className="flex flex-col justify-center items-center mb-6 md:mb-16">
-            <h1 className="text-2xl md:text-4xl text-myPortfolio-white md:text-myPortfolio-secondaryText md:font-bold font-normal uppercase">
-              contact me
+      <div className="contact__container w-full md:w-full flex flex-col md:flex-row justify-center md:justify-between md:items-start items-center md:gap-12">
+        <div className="w-full md:w-10/12 flex flex-col justify-center items-center md:items-start md:text-start text-center text-myPortfolio-white mb-10 md:gap-10">
+          <div className="flex flex-col md:flex-row md:justify-start justify-center items-center md:items-baseline md:gap-2 mb-6 md:mb-2">
+            <h1 className="wow slideInLeft text-2xl md:text-4xl text-myPortfolio-white md:font-bold font-normal md:text-myPortfolio-logo">
+              Contact
             </h1>
-            <span className="w-12 h-1 bg-myPortfolio-logo md:bg-myPortfolio-white" />
+            <span className="wow fadeInDown bar w-12 md:w-32 h-1 bg-myPortfolio-logo md:bg-gray-600" />
           </div>
-          <p className="text-xl hover:animate-pulse">
+          <h1 className="wow bounceInLeft md:text-7xl md:font-bold text-gray-200">Let&#39;s Discuss a new project.</h1>
+          <p className="text-xl md:text:2xl md:font-bold tracking-wide hover:animate-pulse text-orange-600">
             If you have an application you are interested in developing,
             a feature that you need built or a project that needs coding.
-            I’d love to help with it
+            I’d love to help with it.
           </p>
         </div>
         <form action="https://formspree.io/f/xpzbqlab" method="POST" autoComplete="off" id="contact-form" className="w-full h-auto flex flex-col justify-center items-center gap-4 col text-myPortfolio-white">
