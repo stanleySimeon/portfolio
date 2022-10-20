@@ -10,7 +10,7 @@ export default function Testimonial() {
         <h1 className="text-gray-600 text-xl font-normal uppercase pb-6">
           Testimonials
         </h1>
-        <h1 className="wow bounceIn text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold">
+        <h1 className="wow bounceIn text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold">
           What
           {' '}
           <span className="text-orange-600">people</span>

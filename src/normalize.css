@@ -17,6 +17,14 @@
   }
 }
 
+.marquee {
+  /* background-color: red !important; */
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
 #Portfolio #Footer, .bar {
   height: 1px;
 }

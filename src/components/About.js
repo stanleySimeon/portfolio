@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { socialMedia, Languages } from './Data';
+import { socialMedia, Languages, skills } from './Data';
 import mePicture from '../assets/about-me-picture1.png';
 
 export default function About() {
@@ -13,11 +13,13 @@ export default function About() {
         </div>
         <div className="md:w-full md:flex md:flex-col justify-start z-10 backdrop-blur-3xl backdrop-brightness-100 backdrop-opacity-90 p-0 md:backdrop-blur-0 md:-mt-2">
           <div className="flex flex-col justify-center md:justify-start md:items-start mb-8 md:mb-0 mt-8 md:mt-0">
-            <h1 className="wow bounceInDown text-myPortfolio-white text-6xl md:text-7xl font-normal md:font-bold">
-              About me
-              <span className="text-orange-600">.</span>
-            </h1>
-            <span className="w-32 bar md:hidden h-1 bg-myPortfolio-logo" />
+            <span className="flex justify-start items-baseline text-6xl md:text-7xl font-normal md:font-bold">
+              <h1 className="wow bounceInDown text-myPortfolio-white">
+                About me
+              </h1>
+              <span className="text-orange-600 wow zoomInDown" data-wow-duration=".6s" data-wow-delay="1s">.</span>
+            </span>
+            <span className="w-32 md:hidden h-1 bg-myPortfolio-logo" />
           </div>
           <p className="wow bounceIn text-gray-400 text-start md:text-start text-md lg:text-xl font-light mt-6 md:mt-3">
             <strong>Self-taught Full-Stack Developer</strong>
@@ -42,11 +44,18 @@ export default function About() {
           </span>
         </div>
       </div>
-      <div className="hidden w-full md:flex flex-wrap">
+      <div className="marquee w-full hidden md:flex gap-4">
         {
           Languages.map((lang) => (
-            <div key={lang.id} className="flex flex-col justify-center items-center gap-6">
-              <img src={lang.logo} alt={lang.name} className="text-myPortfolio-white h-12" />
+            <div key={lang.id} className="flex w-full justify-between items-center animate-pulse">
+              <img src={lang.logo} alt={lang.name} className="text-myPortfolio-white w-10" />
+            </div>
+          ))
+        }
+        {
+          skills.map((skill) => (
+            <div key={skill.id} className="flex w-full justify-between items-center animate-pulse">
+              <img src={skill.logo} alt={skill.name} className="text-myPortfolio-white w-10" />
             </div>
           ))
         }

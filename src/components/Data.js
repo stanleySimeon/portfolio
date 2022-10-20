@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import {
   faFacebookSquare,
   faGithubSquare,
@@ -5,7 +6,25 @@ import {
   faTwitterSquare,
   faAngellist,
 } from '@fortawesome/free-brands-svg-icons';
-import html from '../assets/logo/html.svg';
+import html from '../assets/skills/html.svg';
+import css from '../assets/skills/css.svg';
+import javascript from '../assets/skills/javascript.svg';
+import react from '../assets/skills/react.svg';
+import redux from '../assets/skills/redux.svg';
+import ruby from '../assets/skills/ruby.svg';
+import rails from '../assets/skills/rails.svg';
+import postgresql from '../assets/skills/postgresql.svg';
+import tailwind from '../assets/skills/tailwind.svg';
+import figma from '../assets/skills/figma.svg';
+import sass from '../assets/skills/sass.png';
+import webpack from '../assets/skills/webpack.png';
+import git from '../assets/skills/git.svg';
+import github from '../assets/skills/github.svg';
+import heroku from '../assets/skills/heroku.svg';
+import netlify from '../assets/skills/netlify.svg';
+import jest from '../assets/skills/jest.svg';
+import photoshop from '../assets/skills/photoshop.png';
+import npm from '../assets/skills/npm.svg';
 
 const Data = [
   {
@@ -111,47 +130,47 @@ export const socialMedia = [
 export const Languages = [
   {
     id: 1,
-    logo: <img src={html} alt="html" />,
+    logo: `${html}`,
     name: 'HTML',
   },
   {
     id: 2,
-    logo: '../assets/skillsLogo/css.png',
+    logo: `${css}`,
     name: 'CSS',
   },
   {
     id: 3,
-    logo: '../assets/skillsLogo/javascript.png',
+    logo: `${javascript}`,
     name: 'JavaScript',
   },
   {
     id: 4,
-    logo: '../assets/skillsLogo/react.png',
+    logo: `${react}`,
     name: 'React',
   },
   {
     id: 5,
-    logo: '../assets/skillsLogo/redux.png',
+    logo: `${redux}`,
     name: 'Redux',
   },
   {
     id: 6,
-    logo: '../assets/skillsLogo/ruby.png',
+    logo: `${ruby}`,
     name: 'Ruby',
   },
   {
     id: 7,
-    logo: '../assets/skillsLogo/rails.png',
+    logo: `${rails}`,
     name: 'Rails',
   },
   {
     id: 8,
-    logo: '../assets/skillsLogo/postgresql.png',
+    logo: `${postgresql}`,
     name: 'PostgreSQL',
   },
   {
     id: 9,
-    logo: '../assets/skillsLogo/Tailwind.png',
+    logo: `${tailwind}`,
     name: 'Tailwind CSS',
   },
 ];
@@ -159,77 +178,52 @@ export const Languages = [
 export const skills = [
   {
     id: 1,
-    logo: '../assets/skillsLogo/git.png',
+    logo: `${git}`,
     name: 'Git',
   },
   {
     id: 2,
-    logo: '../assets/skillsLogo/github.png',
+    logo: `${github}`,
     name: 'Github',
   },
   {
     id: 3,
-    logo: '../assets/skillsLogo/heroku.png',
-    name: 'Heroku',
-  },
-  {
-    id: 4,
-    logo: '../assets/skillsLogo/webpack.png',
-    name: 'Webpack',
-  },
-  {
-    id: 5,
-    logo: '../assets/skillsLogo/npm.png',
+    logo: `${npm}`,
     name: 'NPM',
   },
   {
-    id: 6,
-    logo: '../assets/skillsLogo/yarn.png',
-    name: 'Yarn',
+    id: 4,
+    logo: `${heroku}`,
+    name: 'Heroku',
   },
   {
-    id: 7,
-    logo: '../assets/skillsLogo/babel.png',
-    name: 'Babel',
-  },
-  {
-    id: 8,
-    logo: '../assets/skillsLogo/eslint.png',
-    name: 'ESLint',
-  },
-  {
-    id: 9,
-    logo: '../assets/skillsLogo/stylelint.png',
-    name: 'StyleLint',
-  },
-  {
-    id: 10,
-    logo: '../assets/skillsLogo/jest.png',
-    name: 'Jest',
-  },
-  {
-    id: 12,
-    logo: '../assets/skillsLogo/rubocop.png',
-    name: 'Rubocop',
-  },
-  {
-    id: 11,
-    logo: '../assets/skillsLogo/terminal.png',
-    name: 'Terminal',
-  },
-  {
-    id: 13,
-    logo: '../assets/skillsLogo/netlify.png',
+    id: 5,
+    logo: `${netlify}`,
     name: 'Netlify',
   },
   {
-    id: 14,
-    logo: '../assets/skillsLogo/figma.png',
+    id: 6,
+    logo: `${webpack}`,
+    name: 'Webpack',
+  },
+  {
+    id: 7,
+    logo: `${sass}`,
+    name: 'SASS',
+  },
+  {
+    id: 8,
+    logo: `${jest}`,
+    name: 'Jest',
+  },
+  {
+    id: 9,
+    logo: `${figma}`,
     name: 'Figma',
   },
   {
-    id: 15,
-    logo: '../assets/skillsLogo/photoshop.png',
+    id: 10,
+    logo: `${photoshop}`,
     name: 'Photoshop',
   },
 ];
