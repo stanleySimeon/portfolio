@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../assets/files/Stanley_SIMEON_Resume.pdf';
 import { Languages, skills } from './Data';
 
 export default function Footer() {
@@ -53,7 +54,14 @@ export default function Footer() {
           <div className="text-myPortfolio-grayLight flex flex-col justify-center mt-4">
             <span className="text-sm lg:text-xl flex text-gray-600">Email: mstanley.me@gmail.com</span>
             <span className="text-sm lg:text-xl flex text-gray-600">Phone: +(509)440-256-51</span>
-            <button type="button" className="w-32 lg:w-48 btn bg-white  lg:bg-myPortfolio-logo text-myPortfolio-logo font-semibold animate-bounce lg:text-white px-2 lg:px-4 py-2 text-xs lg:text-md mt-4 rounded-sm">GET MY RESUME</button>
+            <a
+              target="_blank"
+              href={resume}
+              rel="noreferrer"
+              className="w-32 lg:w-48 btn bg-white  lg:bg-myPortfolio-logo text-myPortfolio-logo font-semibold animate-bounce lg:text-white px-2 lg:px-4 py-2 text-xs lg:text-md mt-4 rounded-sm"
+            >
+              GET MY RESUME
+            </a>
           </div>
         </div>
       </div>
