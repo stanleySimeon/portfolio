@@ -14,15 +14,6 @@
 
 [Live Demo Link](https://mstanley.netlify.app)
 
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-- npm
-- git
-- any code editor, but vs code can be better.
-
 ### Setup
 - clone the project `https://github.com/stanleySimeon/mstanley.git`
 
