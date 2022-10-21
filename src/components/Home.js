@@ -24,7 +24,7 @@ export default function Home() {
           If you like what you see and have a project you need coded,
           don&#39;t hesitate to contact me.
         </p>
-        <div className="flex gap-4 md:gap-6">
+        <div className="flex gap-6 md:gap-10">
           <Link
             style={pathname === '/About' ? focus : {}}
             smooth
@@ -32,7 +32,7 @@ export default function Home() {
             to="About"
             data-wow-duration=".5s"
             data-wow-delay=".8s"
-            className="wow fadeInUp bg-myPortfolio-logo text-white text-md py-2 px-2 rounded-sm select-none"
+            className="wow fadeInUp bg-myPortfolio-logo text-white text-md py-2 px-4 rounded-sm select-none"
           >
             GET STARTED
           </Link>

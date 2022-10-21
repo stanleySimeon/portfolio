@@ -1,19 +1,17 @@
 #Home {
-  background-image: url(./assets/background1.png);
+  background-image: url(./assets/background1.AVIF);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: contain;
   background-attachment: fixed;
 }
 
 @media (max-width: 768px) {
   #About {
-    background-image: url(./assets/about-me-picture-background.png);
+    background-image: url(./assets/about-me-picture-background.AVIF);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    object-fit: cover;
   }
 }
 
@@ -23,11 +21,40 @@
 }
 
 #Contact {
-  background-image: url(./assets/contact_background.png);
+  background-image: url(./assets/contact_background.AVIF);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  #Home {
+    background-image: url(./assets/background1.AVIF);
+    background-size: 600;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #About {
+    background-image: url(./assets/about-me-picture-background.AVIF);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #Contact {
+    background-image: url(./assets/contact_background.AVIF);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  img#Resize, .logo {
+    width: 600;
+    height: 400;
+  }
 }
 
 .faTimes {
@@ -77,4 +104,13 @@ ul.thumbs,
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.control-dots .dot {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
 }

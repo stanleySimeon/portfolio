@@ -16,18 +16,18 @@ import rails from '../assets/skills/rails.svg';
 import postgresql from '../assets/skills/postgresql.svg';
 import tailwind from '../assets/skills/tailwind.svg';
 import figma from '../assets/skills/figma.svg';
-import sass from '../assets/skills/sass.png';
-import webpack from '../assets/skills/webpack.png';
+import sass from '../assets/skills/sass.AVIF';
+import webpack from '../assets/skills/webpack.AVIF';
 import git from '../assets/skills/git.svg';
 import github from '../assets/skills/github.svg';
 import heroku from '../assets/skills/heroku.svg';
 import netlify from '../assets/skills/netlify.svg';
 import jest from '../assets/skills/jest.svg';
-import photoshop from '../assets/skills/photoshop.png';
+import photoshop from '../assets/skills/photoshop.AVIF';
 import npm from '../assets/skills/npm.svg';
-import bookstore from '../assets/screenshots/bookstore.png';
-import mathmagician from '../assets/screenshots/mathmagician.png';
-import space from '../assets/screenshots/space.png';
+import bookstore from '../assets/screenshots/bookstore.AVIF';
+import mathmagician from '../assets/screenshots/mathmagician.AVIF';
+import space from '../assets/screenshots/space.AVIF';
 
 const Data = [
   {

@@ -2,7 +2,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { socialMedia, Languages, skills } from './Data';
-import mePicture from '../assets/about-me-picture1.png';
+import mePicture from '../assets/about-me-picture1.AVIF';
 
 export default function About() {
   return (
@@ -48,14 +48,14 @@ export default function About() {
         {
           Languages.map((lang) => (
             <div key={lang.id} className="bounce flex w-full justify-between items-center animate-pulse">
-              <img src={lang.logo} alt={lang.name} className="bounce text-myPortfolio-white md:w-14 lg:w-16" />
+              <img src={lang.logo} alt={lang.name} className="bounce text-myPortfolio-white md:w-14 lg:w-16 iconResize" />
             </div>
           ))
         }
         {
           skills.map((skill) => (
             <div key={skill.id} className="flex w-full justify-between items-center animate-pulse">
-              <img src={skill.logo} alt={skill.name} className="bounce text-myPortfolio-white w-10" />
+              <img src={skill.logo} alt={skill.name} className="bounce text-myPortfolio-white w-10 iconResize" />
             </div>
           ))
         }
