@@ -51,7 +51,7 @@ export default function Footer() {
             <h1 className="text-md lg:text-lg font-bold text-myPortfolio-white">Contact</h1>
             <span className="bar w-full bg-gray-500" />
           </span>
-          <div className="text-myPortfolio-grayLight flex flex-col justify-center mt-4">
+          <div className="text-myPortfolio-grayLight flex flex-col justify-center md:mt-4">
             <span className="text-sm lg:text-xl flex text-gray-600">Email: mstanley.me@gmail.com</span>
             <span className="text-sm lg:text-xl flex text-gray-600">Phone: +(509)440-256-51</span>
             <a
