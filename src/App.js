@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio';
 import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import './normalize.min.css';
+import './normalize.css';
 import './index.css';
 
 export default function App() {

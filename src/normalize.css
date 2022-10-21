@@ -30,12 +30,13 @@
 @media (max-width: 600px) {
   #Home {
     background-image: url(./assets/background1.AVIF);
-    background-size: 600;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
+
   #About {
     background-image: url(./assets/about-me-picture-background.AVIF);
     background-size: cover;
@@ -43,17 +44,13 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+
   #Contact {
     background-image: url(./assets/contact_background.AVIF);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-  }
-
-  img#Resize, .logo {
-    width: 600;
-    height: 400;
   }
 }
 
