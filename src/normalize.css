@@ -17,16 +17,17 @@
   }
 }
 
-#Portfolio #Footer, .bar {
+#Portfolio #Footer,
+.bar {
   height: 1px;
 }
 
 #Contact {
   background-image: url(./assets/contact_background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
 }
 
 .faTimes {
@@ -50,9 +51,8 @@ li,
 }
 
 .link:active {
-  color: #0A4EFB;
+  color: #0a4efb;
 }
-
 
 ul.thumbs,
 .carousel-status,
@@ -60,7 +60,7 @@ ul.thumbs,
   display: none !important;
 }
 
- .personCard {
+.personCard {
   width: 100px !important;
   height: 100px !important;
 }
