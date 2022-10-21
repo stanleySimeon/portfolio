@@ -47,15 +47,15 @@ export default function About() {
       <div className="marquee w-full hidden md:flex gap-4">
         {
           Languages.map((lang) => (
-            <div key={lang.id} className="flex w-full justify-between items-center animate-pulse">
-              <img src={lang.logo} alt={lang.name} className="text-myPortfolio-white w-10" />
+            <div key={lang.id} className="bounce flex w-full justify-between items-center animate-pulse">
+              <img src={lang.logo} alt={lang.name} className="bounce text-myPortfolio-white md:w-14 lg:w-16" />
             </div>
           ))
         }
         {
           skills.map((skill) => (
             <div key={skill.id} className="flex w-full justify-between items-center animate-pulse">
-              <img src={skill.logo} alt={skill.name} className="text-myPortfolio-white w-10" />
+              <img src={skill.logo} alt={skill.name} className="bounce text-myPortfolio-white w-10" />
             </div>
           ))
         }

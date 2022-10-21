@@ -4,7 +4,7 @@ import { Languages, skills } from './Data';
 export default function Footer() {
   return (
     <footer id="Footer" className="footer container-fluid w-full h-auto md:px-16 lg:px-32 py-4 flex flex-col justify-center items-center px-4">
-      <div className="hidden w-full md:grid grid-cols-3 justify-between md:items-start mb-6 mt-6 gap-14">
+      <div className="w-full md:grid grid-cols-3 justify-between md:items-start mb-6 mt-6 gap-14">
         <div className="">
           <span className="flex items-baseline gap-2">
             <h1 className="text-md lg:text-lg font-bold text-myPortfolio-white">
@@ -51,8 +51,8 @@ export default function Footer() {
             <span className="bar w-full bg-gray-500" />
           </span>
           <div className="text-myPortfolio-grayLight flex flex-col justify-center mt-4">
-            <span className="text-sm lg:text-xl hidden md:flex text-gray-600">Email: mstanley.me@gmail.com</span>
-            <span className="text-sm lg:text-xl hidden md:flex text-gray-600">Phone: +(509)440-256-51</span>
+            <span className="text-sm lg:text-xl flex text-gray-600">Email: mstanley.me@gmail.com</span>
+            <span className="text-sm lg:text-xl flex text-gray-600">Phone: +(509)440-256-51</span>
             <button type="button" className="w-48 btn bg-myPortfolio-logo text-white px-2 md:px-4 py-2 md:text-md lg:text-xl mt-4 rounded-sm">GET MY RESUME</button>
           </div>
         </div>

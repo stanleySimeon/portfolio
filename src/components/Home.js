@@ -1,7 +1,13 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import Navbar from './Navbar/Navigation';
 
 export default function Home() {
+  const { pathname } = useLocation();
+  const focus = {
+    opacity: 1,
+  };
   return (
     <section id="Home" className="container-fluid w-full h-screen px-4 md:mt-0 md:px-16 lg:px-32 flex flex-col justify-center">
       <Navbar />
@@ -19,12 +25,28 @@ export default function Home() {
           don&#39;t hesitate to contact me.
         </p>
         <div className="flex gap-4 md:gap-6">
-          <button type="button" data-wow-duration=".5s" data-wow-delay=".8s" className="wow fadeInUp bg-myPortfolio-logo text-white text-md py-2 px-2 rounded-sm">
+          <Link
+            style={pathname === '/About' ? focus : {}}
+            smooth
+            duration={100}
+            to="About"
+            data-wow-duration=".5s"
+            data-wow-delay=".8s"
+            className="wow fadeInUp bg-myPortfolio-logo text-white text-md py-2 px-2 rounded-sm select-none"
+          >
             GET STARTED
-          </button>
-          <button type="button" data-wow-duration=".8s" data-wow-delay=".9s" className="wow fadeInUp bg-myPortfolio-white text-myPortfolio-logo text-md py-2 px-2 rounded-sm">
-            LET&#39;S CONNECT
-          </button>
+          </Link>
+          <Link
+            style={pathname === '/Contact' ? focus : {}}
+            smooth
+            duration={300}
+            to="Contact"
+            data-wow-duration=".8s"
+            data-wow-delay=".9s"
+            className="wow fadeInUp border border-bg-myPortfolio-white text-myPortfolio-white text-md py-2 px-4 rounded-sm select-none"
+          >
+            LET&#39;S TALK
+          </Link>
         </div>
       </div>
     </section>

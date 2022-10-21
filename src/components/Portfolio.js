@@ -26,10 +26,10 @@ export default class About extends Component {
           {
             Data.map((data) => (
               <li key={data.id} className="wow fadeInUp h-auto md:w-full lg:w-full md:flex md:justify-center border-myPortfolio-circle md:border-none md:bg-myPortfolio bg-myPortfolio-bgCard border px-2 md:px-0 pt-2 pb-6 md:mb-16 mb-10 md:gap-4 lg:gap-8 rounded-md list-none shadow-md md:odd:flex md:even:flex-row-reverse">
-                <div className="w-full md:w-6/12 lg:w-full flex flex-col gap-2 mb-4 md:flex-col-reverse">
+                <div className="w-full md:w-6/12 h-full lg:w-full flex flex-col gap-2 mb-4 md:flex-col-reverse">
                   <img src={data.image} alt={data.title} className="rounded md:border md:border-myPortfolio-circle" />
                   <div className="md:flex md:justify-start md:items-baseline md:gap-2">
-                    <span className="bar hidden md:flex w-32 lg:w-52 bg-myPortfolio-white" />
+                    <span className="bar hidden md:flex md:w-20 lg:w-52 bg-myPortfolio-white" />
                     <h1 className="text-myPortfolio-white md:text-myPortfolio-secondaryText text-lg md:text-2xl font-bold uppercase">{data.title}</h1>
                   </div>
                 </div>

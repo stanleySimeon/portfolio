@@ -25,43 +25,37 @@ import netlify from '../assets/skills/netlify.svg';
 import jest from '../assets/skills/jest.svg';
 import photoshop from '../assets/skills/photoshop.png';
 import npm from '../assets/skills/npm.svg';
+import bookstore from '../assets/screenshots/bookstore.png';
+import mathmagician from '../assets/screenshots/mathmagician.png';
+import space from '../assets/screenshots/space.png';
 
 const Data = [
   {
     id: 1,
-    image: 'https://img.freepik.com/premium-photo/astronaut-outer-open-space-planet-earth-stars-provide-background-erforming-space-planet-earth-sunrise-sunset-our-home-iss-elements-this-image-furnished-by-nasa_150455-16829.jpg?w=2000',
+    image: `${bookstore}`,
     title: 'Bookstore',
     description: 'A content management system for a bookstore, built with React and Redux.The app allows users to add and remove books from the store, and filter books by category, and also allows users to add new categories.',
-    technologies: ['React', 'Redux', 'JavaScript', 'CSS', 'HTML'],
-    liveLink: 'https://bookstore-cms-2021.herokuapp.com/',
-    sourceLink: 'https://github.com/StanleySimeon/bookstore-cms',
+    technologies: ['React', 'Redux', 'JavaScript', 'CSS'],
+    liveLink: 'https://bstore.netlify.app/',
+    sourceLink: 'https://github.com/stanleySimeon/bookstore',
   },
   {
     id: 2,
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH0SamxDy7a2YFk5zKd_l9Cd7qr9xppYvj1ID4fuvg6gkl8_NpGYVS42mLj4G1P2gJn48&usqp=CAU',
-    title: 'Leaderboard',
-    description: 'A leaderboard app built with React and Redux. The app allows users to add scores to a leaderboard and sort them by highest score, and also allows users to filter scores by category.',
-    technologies: ['React', 'Redux', 'JavaScript', 'CSS', 'HTML'],
-    liveLink: 'https://leaderboard-2021.herokuapp.com/',
-    sourceLink: '',
+    image: `${mathmagician}`,
+    title: 'Calculator',
+    description: 'A calculator app built with React and Redux. The app allows users to perform basic arithmetic operations, including addition, subtraction, division, and multiplication, and chaining and nesting of operations (as well as the +/- button which changes a negative number positive and vice-versa).',
+    technologies: ['React', 'Redux', 'JavaScript', 'CSS'],
+    liveLink: 'https://kalkilanm.netlify.app/',
+    sourceLink: 'https://github.com/stanleySimeon/maths-magician',
   },
   {
     id: 3,
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQCZulJPFNdqpTIfud-SbMDmE9PaL2ZO5N-XbX--fIoXMMg0MKKco-4eC5QciziSwerWE&usqp=CAU',
-    title: 'Weather',
-    description: 'A weather app built with React and Redux. The app allows users to search for a city and view the current weather conditions and a 5-day forecast.',
-    technologies: ['React', 'Redux', 'JavaScript', 'CSS', 'HTML'],
-    liveLink: 'https://weather-app-2021.herokuapp.com/',
-    sourceLink: '',
-  },
-  {
-    id: 4,
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1MF_LXIT85ljMWq4eUpreS1K7JFY6tuMNLTaXQbh3HnV9n6xCfHkIoMlPtOartT7GJT4&usqp=CAU',
-    title: 'Calculator',
-    description: 'A calculator app built with React and Redux. The app allows users to perform basic arithmetic operations.',
-    technologies: ['React', 'Redux', 'JavaScript', 'CSS', 'HTML'],
-    liveLink: 'https://calculator-2021.herokuapp.com/',
-    sourceLink: '',
+    image: `${space}`,
+    title: 'Space Travelers',
+    description: 'A web app for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions. Users can also cancel rockets or leave space missions, and view all reserved rockets and joined missions on their profile page.',
+    technologies: ['React', 'Redux', 'JavaScript', 'Tailwind'],
+    liveLink: 'https://spacextravellers.netlify.app/',
+    sourceLink: 'https://github.com/stanleySimeon/space-travellers',
   },
 ];
 export const Testimonials = [
