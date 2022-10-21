@@ -45,7 +45,7 @@ export default function Footer() {
             }
           </div>
         </div>
-        <div className="contact">
+        <div className="contact mb-4 md:mb-0 lg:mb-0">
           <span className="flex items-baseline gap-2">
             <h1 className="text-md lg:text-lg font-bold text-myPortfolio-white">Contact</h1>
             <span className="bar w-full bg-gray-500" />
@@ -53,11 +53,11 @@ export default function Footer() {
           <div className="text-myPortfolio-grayLight flex flex-col justify-center mt-4">
             <span className="text-sm lg:text-xl flex text-gray-600">Email: mstanley.me@gmail.com</span>
             <span className="text-sm lg:text-xl flex text-gray-600">Phone: +(509)440-256-51</span>
-            <button type="button" className="w-48 btn bg-myPortfolio-logo text-white px-2 md:px-4 py-2 md:text-md lg:text-xl mt-4 rounded-sm">GET MY RESUME</button>
+            <button type="button" className="w-32 lg:w-48 btn bg-white  lg:bg-myPortfolio-logo text-myPortfolio-logo font-semibold animate-bounce lg:text-white px-2 lg:px-4 py-2 text-xs lg:text-md mt-4 rounded-sm">GET MY RESUME</button>
           </div>
         </div>
       </div>
-      <p className="text-center text-gray-400">
+      <p className="text-center text-gray-400 text-xs">
         Stanley SIMEON
         &copy;Copyright
         {' '}
