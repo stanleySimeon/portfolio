@@ -58,7 +58,7 @@ export default function Footer() {
               target="_blank"
               href={resume}
               rel="noreferrer"
-              className="w-32 lg:w-48 btn bg-white  lg:bg-myPortfolio-logo text-myPortfolio-logo font-semibold animate-bounce lg:text-white px-2 lg:px-4 py-2 text-xs lg:text-md mt-4 rounded-sm"
+              className="w-32 lg:w-48 btn bg-white  lg:bg-myPortfolio-logo text-myPortfolio-logo font-semibold animate-bounce lg:text-white text-center px-2 lg:px-4 py-2 text-xs lg:text-md mt-4 rounded-sm"
             >
               GET MY RESUME
             </a>
