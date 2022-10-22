@@ -28,7 +28,7 @@ export default function Contact() {
         <form action="https://formspree.io/f/xpzbqlab" method="POST" id="contact-form" autoComplete="none" className="w-full h-auto flex flex-col justify-center items-center gap-4 col text-myPortfolio-white">
           <label htmlFor="name" className="w-full flex flex-col gap-2">
             <span className="text-xl">Full Name</span>
-            <input type="text" name="name" placeholder="Full Name" autoComplete="none" required id="email" className="w-full bg-transparent text-xl border-blue-50 outline-none focus-none" />
+            <input type="text" name="name" placeholder="Full Name" autoComplete="none" required id="name" className="w-full bg-transparent text-xl border-blue-50 outline-none focus-none" />
           </label>
           <label htmlFor="email" className="w-full flex flex-col gap-2">
             <span className="text-xl">Email</span>
