@@ -25,14 +25,14 @@ export default function Contact() {
             I’d love to help with it.
           </p>
         </div>
-        <form action="https://formspree.io/f/xpzbqlab" method="POST" id="contact-form" autoComplete="none" className="w-full h-auto flex flex-col justify-center items-center gap-4 col text-myPortfolio-white">
+        <form action="https://formspree.io/f/xpzbqlab" method="POST" id="contact-form" className="w-full h-auto flex flex-col justify-center items-center gap-4 col text-myPortfolio-white">
           <label htmlFor="name" className="w-full flex flex-col gap-2">
             <span className="text-xl">Full Name</span>
-            <input type="text" name="name" placeholder="Full Name" autoComplete="none" required id="name" className="w-full bg-transparent text-xl border-blue-50 outline-none focus-none" />
+            <input type="text" name="name" placeholder="Full Name" autoComplete="off" required id="name" className="w-full bg-transparent text-xl border-blue-50 outline-none focus-none" />
           </label>
           <label htmlFor="email" className="w-full flex flex-col gap-2">
             <span className="text-xl">Email</span>
-            <input type="email" name="email" placeholder="Email" autoComplete="none" required id="email" className="w-full bg-transparent text-xl border-blue-50 outline-none" />
+            <input type="email" name="email" placeholder="Email" autoComplete="off" required id="email" className="w-full bg-transparent text-xl border-blue-50 outline-none" />
           </label>
           <label htmlFor="message" className="w-full flex flex-col gap-2">
             <span className="text-xl">Message</span>
