@@ -104,10 +104,21 @@ ul.thumbs,
 }
 
 .control-dots .dot {
-  width: 12px !important;
-  height: 12px !important;
+  width: 10px !important;
+  height: 10px !important;
   border-radius: 50%;
   background-color: #fff;
   margin: 0 5px;
   cursor: pointer;
+}
+
+.carousel-slider .control-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute !important;
+  top: 95% !important;
 }

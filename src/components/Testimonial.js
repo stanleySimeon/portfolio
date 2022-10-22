@@ -27,7 +27,7 @@ export default function Testimonial() {
       >
         {
           Testimonials.map((test) => (
-            <div key={test.id} className="md:h-auto text-start cursor-default px-6 md:px-8">
+            <div key={test.id} className="md:h-auto text-start cursor-default px-2 md:px-8">
               <img src={test.personPicture} alt={test.personName} className="personCard h-12 rounded-full mb-4" />
               <p className="mb-4 text-md md:text-gray-400">{test.testimonial}</p>
               <h1 className="text-xl mb-4">
