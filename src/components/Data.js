@@ -28,6 +28,7 @@ import npm from '../assets/skills/npm.svg';
 import bookstore from '../assets/screenshots/bookstore.AVIF';
 import mathmagician from '../assets/screenshots/mathmagician.AVIF';
 import space from '../assets/screenshots/space.AVIF';
+import greetings from '../assets/screenshots/greetings.AVIF';
 
 const Data = [
   {
@@ -56,6 +57,15 @@ const Data = [
     technologies: ['React', 'Redux', 'JavaScript', 'Tailwind'],
     liveLink: 'https://spacextravellers.netlify.app/',
     sourceLink: 'https://github.com/stanleySimeon/space-travellers',
+  },
+  {
+    id: 4,
+    image: `${greetings}`,
+    title: 'Greetings',
+    description: 'A simple web app that allows users to see personalized greetings, built with React and Redux, also connected to an external API to fetch random greetings built with Ruby on Rails.',
+    technologies: ['React', 'Redux', 'JavaScript', 'Tailwind', 'Ruby on Rails'],
+    liveLink: 'https://greetngs.netlify.app/',
+    sourceLink: 'https://github.com/stanleySimeon/greetings-front-end',
   },
 ];
 export const Testimonials = [
