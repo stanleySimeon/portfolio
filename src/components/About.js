@@ -14,7 +14,7 @@ export default function About() {
         <div className="md:w-full md:flex md:flex-col justify-start z-10 backdrop-blur-3xl backdrop-brightness-100 backdrop-opacity-90 p-0 md:backdrop-blur-0 md:-mt-2">
           <div className="flex flex-col justify-center md:justify-start md:items-start mb-8 md:mb-0 mt-8 md:mt-0">
             <span className="flex justify-start items-baseline text-6xl md:text-7xl font-normal md:font-bold">
-              <h1 className="wow bounceInDown text-myPortfolio-white">
+              <h1 className="wow bounceInDown text-myPortfolio-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold">
                 About me
               </h1>
               <span className="text-orange-600 wow zoomInDown" data-wow-duration=".6s" data-wow-delay="1s">.</span>
