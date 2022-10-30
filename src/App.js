@@ -10,7 +10,7 @@ import './index.css';
 
 export default function App() {
   return (
-    <div className="container-fluid bg-myPortfolio">
+    <div className="container-fluid">
       <Home />
       <About />
       <Portfolio />
