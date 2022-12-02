@@ -39,7 +39,7 @@
  - [React Scroll](https://www.npmjs.com/package/react-scroll)
  - [Tailwind CSS](https://tailwindcss.com/)
  - [Wow.js](https://wowjs.uk/)
- 
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -68,7 +68,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
- npm install
+ npm
 ```
 
 ### Setup
