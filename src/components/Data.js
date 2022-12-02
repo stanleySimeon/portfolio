@@ -29,6 +29,7 @@ import bookstore from '../assets/screenshots/bookstore.AVIF';
 import mathmagician from '../assets/screenshots/mathmagician.AVIF';
 import space from '../assets/screenshots/space.AVIF';
 import greetings from '../assets/screenshots/greetings.AVIF';
+import recipe from '../assets/screenshots/recipe.AVIF';
 
 const Data = [
   {
@@ -66,6 +67,15 @@ const Data = [
     technologies: ['React', 'Redux', 'JavaScript', 'Tailwind', 'Ruby on Rails'],
     liveLink: 'https://greetngs.netlify.app/',
     sourceLink: 'https://github.com/stanleySimeon/greetings-front-end',
+  },
+  {
+    id: 5,
+    image: `${recipe}`,
+    title: 'Recipe',
+    description: 'This is a recipe app that allows users to search for recipes by ingredients. It also allows users to add recipes to their favorites and view them later. Users are able to generate a shopping list of ingredients for the recipes they have added to their favorites. the app is built using the following technologies: Ruby, Ruby on Rails, Tailwind CSS and devise to the authentication system.​',
+    technologies: ['Ruby', 'Ruby on Rails', 'Tailwind CSS', 'Devise'],
+    liveLink: '#',
+    sourceLink: 'https://github.com/stanleySimeon/Recipe_App',
   },
 ];
 export const Testimonials = [
