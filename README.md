@@ -1,9 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="/assets/favicon.ico" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Stanley SIMEON Portfolio</b></h3>
 </div>
 
@@ -14,7 +11,6 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -24,7 +20,6 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -47,16 +42,6 @@
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -128,18 +113,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -154,8 +127,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project, please give it a ⭐️!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -164,10 +135,11 @@ If you like this project, please give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the following people:
-@joshcomeau for his inspiring css course
-@microverse for the opportunity to learn and grow as a developer
-@brianholt for his inspiring React course on Frontend Masters
+- I would like to thank the following people:
+
+  - @microverse for the opportunity to learn and grow as a developer
+  - @joshcomeau for his inspiring css course
+  - @brianholt for his inspiring React course on Frontend Masters
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
