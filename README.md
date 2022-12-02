@@ -137,9 +137,9 @@ If you like this project, please give it a ⭐️!
 
 - I would like to thank the following people:
 
-  - @microverse for the opportunity to learn and grow as a developer
-  - @joshcomeau for his inspiring css course
-  - @brianholt for his inspiring React course on Frontend Masters
+  - [@microverse](https://github.com/microverseinc) for the opportunity to learn and grow as a developer
+  - [@brianholt](https://www.linkedin.com/in/btholt/) for his inspiring React course on Frontend Masters
+  - [@joshcomeau](https://github.com/Joshcomeau) for his inspiring css course
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
