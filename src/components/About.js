@@ -25,7 +25,7 @@ export default function About() {
             <strong>Self-taught Full-Stack Developer</strong>
             <br />
             <span className="text-green-500 md:p-1 rounded">
-              Javascript | React & Redux | Ruby | Ruby on Rails | HTML/CSS
+              Javascript | React & Redux | Ruby | Ruby on Rails | Laravel | HTML/CSS
             </span>
             <br />
             I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
