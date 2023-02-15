@@ -13,13 +13,13 @@ export default class About extends Component {
   render() {
     return (
       <section id="Portfolio" className="container-fluid w-full h-auto px-4 lg:px-32 md:px-16 py-16 md:pt-28 flex flex-col justify-center items-center">
-        <div className="w-full flex flex-col md:flex-row justify-center md:justify-start items-center md:items-baseline md:gap-4 mb-6 md:mb-16">
-          <h1 className="text-myPortfolio-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold">
-            Explore my
+        <div className="w-full flex flex-col md:flex-row justify-start md:items-baseline md:gap-4 mb-6 md:mb-16">
+          <h2 className="text-orange-600 text-5xl sm:text-6xl font-bold">
+            My
             {' '}
-            <span className="text-orange-600">works</span>
+            <span className="text-myPortfolio-white">Projects</span>
             .
-          </h1>
+          </h2>
           <span className="w-12 hidden md:w-52 h-1 bg-myPortfolio-logo" />
         </div>
         <div className="flex w-full flex-col justify-center items-center">
@@ -30,11 +30,11 @@ export default class About extends Component {
                   <img src={data.image} alt={data.title} className="rounded md:border md:border-myPortfolio-circle" id="Resize" />
                   <div className="md:flex md:justify-start md:items-baseline md:gap-2">
                     <span className="bar hidden md:flex md:w-20 lg:w-52 bg-myPortfolio-white" />
-                    <h1 className="text-myPortfolio-white md:text-myPortfolio-secondaryText text-lg md:text-2xl font-bold uppercase">{data.title}</h1>
+                    <h2 className="text-myPortfolio-white md:text-myPortfolio-secondaryText text-lg md:text-2xl font-bold uppercase">{data.title}</h2>
                   </div>
                 </div>
                 <div className="w-full md:w-6/12 lg:w-full flex flex-col lg:py-8">
-                  <p className="text-gray-400 text-md lg:text-xl text-light md:mt-8 lg:mt-2">{data.description}</p>
+                  <p className="text-gray-400 text-md md:text-lg font-light md:mt-8 lg:mt-2">{data.description}</p>
                   <span className="hidden md:flex gap-2 md:mt-6">
                     {data.technologies.map((tech) => (
                       <span key={tech} className="text-myPortfolio-white text-sm lg:text-md md:px-1 lg:px-2 font-normal bg-myPortfolio-logo rounded-sm wow bounceInUp">{tech}</span>

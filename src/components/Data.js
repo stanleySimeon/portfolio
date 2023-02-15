@@ -19,14 +19,14 @@ import java from '../assets/skills/java.svg';
 import postgresql from '../assets/skills/postgresql.svg';
 import tailwind from '../assets/skills/tailwind.svg';
 import figma from '../assets/skills/figma.svg';
-import sass from '../assets/skills/sass.AVIF';
-import webpack from '../assets/skills/webpack.AVIF';
+// import sass from '../assets/skills/sass.AVIF';
+// import webpack from '../assets/skills/webpack.AVIF';
 import git from '../assets/skills/git.svg';
 import github from '../assets/skills/github.svg';
 import heroku from '../assets/skills/heroku.svg';
 import netlify from '../assets/skills/netlify.svg';
 import jest from '../assets/skills/jest.svg';
-import photoshop from '../assets/skills/photoshop.AVIF';
+// import photoshop from '../assets/skills/photoshop.AVIF';
 import npm from '../assets/skills/npm.svg';
 import bookstore from '../assets/screenshots/bookstore.AVIF';
 import mathmagician from '../assets/screenshots/mathmagician.AVIF';
@@ -73,7 +73,7 @@ const Data = [
     sourceLink: 'https://github.com/stanleySimeon/BOOKSTORE',
   },
   {
-    id: 3,
+    id: 5,
     image: `${mathmagician}`,
     title: 'Calculator',
     description: 'A calculator app built with React and Redux. The app allows users to perform basic arithmetic operations, including addition, subtraction, division, and multiplication, and chaining and nesting of operations (as well as the +/- button which changes a negative number positive and vice-versa).',
@@ -82,7 +82,7 @@ const Data = [
     sourceLink: 'https://github.com/stanleySimeon/maths-magician',
   },
   {
-    id: 5,
+    id: 6,
     image: `${netflix}`,
     title: 'Netflix Clone',
     description: 'NETFLIX CLONE is a web app built with React JS and Ruby on Rails offers a user-friendly streaming platform that resembles the original Netflix. It features a catalog of movies and TV shows, user authentication, intuitive search options, video streaming, and playback controls.',
@@ -206,12 +206,12 @@ export const Languages = [
     name: 'Java',
   },
   {
-    id: 8,
+    id: 11,
     logo: `${postgresql}`,
     name: 'PostgreSQL',
   },
   {
-    id: 9,
+    id: 12,
     logo: `${tailwind}`,
     name: 'Tailwind CSS',
   },
@@ -245,28 +245,13 @@ export const skills = [
   },
   {
     id: 6,
-    logo: `${webpack}`,
-    name: 'Webpack',
-  },
-  {
-    id: 7,
-    logo: `${sass}`,
-    name: 'SASS',
-  },
-  {
-    id: 8,
     logo: `${jest}`,
     name: 'Jest',
   },
   {
-    id: 9,
+    id: 7,
     logo: `${figma}`,
     name: 'Figma',
-  },
-  {
-    id: 10,
-    logo: `${photoshop}`,
-    name: 'Photoshop',
   },
 ];
 

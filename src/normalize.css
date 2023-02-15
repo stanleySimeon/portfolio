@@ -7,15 +7,6 @@
   background-attachment: fixed;
 }
 
-@media (max-width: 768px) {
-  #About {
-    background-image: url(./assets/about-me-picture-background.AVIF);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
-
 #Portfolio #Footer,
 .bar {
   height: 1px;
@@ -38,13 +29,13 @@
     background-position: center;
   }
 
-  #About {
+  /* #About {
     background-image: url(./assets/about-me-picture-background.AVIF);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-  }
+  } */
 
   #Contact {
     background-image: url(./assets/contact_background.AVIF);

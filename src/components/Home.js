@@ -14,11 +14,11 @@ export default function Home() {
     <section id="Home" className="container-fluid relative w-full h-screen px-4 md:mt-0 md:px-16 lg:px-32 flex flex-col justify-center">
       <Navbar />
       <div className="md:w-10/12 lg:w-7/12 md:bg-blue flex flex-col space-y-4">
-        <span className="text-myPortfolio-orange font-thin wow bounceInLeft text-5xl  md:text-7xl lg:text-8xl">I&#39;m Stanley</span>
-        <h1 className="wow bounceInLeft text-white text-5xl  md:text-7xl lg:text-8xl font-bold">
-          Full Stack Developer
+        <span className="text-myPortfolio-orange font-thin wow bounceInLeft text-5xl  md:text-7xl">I&#39;m Stanley</span>
+        <h1 className="wow bounceInLeft text-white text-5xl  md:text-7xl font-bold">
+          Glad to see you!
         </h1>
-        <p className="wow fadeInUp text-myPortfolio-grayLight text-md lg:text-xl font-light my-4 md:my-6 text-justify">
+        <p className="wow fadeInUp text-myPortfolio-grayLight text-md lg:text-lg font-light my-4 md:my-6 text-justify">
           I am a highly skilled software developer with extensive experience
           in building high-quality products, features, and websites.
           My work speaks for itself, and I am confident that I can help you
