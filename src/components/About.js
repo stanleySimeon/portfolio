@@ -19,7 +19,7 @@ export default function About() {
               </h2>
               <span className="text-orange-600 wow zoomInDown" data-wow-duration=".6s" data-wow-delay="1s">.</span>
             </span>
-            <span className="w-32 md:hidden h-1 bg-myPortfolio-logo" />
+            <span className="w-32 md:hidden border-b  border-myPortfolio-logo" />
           </div>
           <p className="wow bounceIn text-gray-400 text-justify text-md lg:text-lg font-light mt-6 md:mt-3">
             <strong>Full Stack Developer</strong>
@@ -36,7 +36,7 @@ export default function About() {
             I bring to every project. If you&#39;re ready to take your project to the next level,
             let&#39;s connect and bring your ideas to life!
           </p>
-          <div className="flex md:hidden justify-start items-center space-x-4">
+          <div className="flex md:hidden justify-start items-center space-x-4 pt-4">
             <span className="vertical-bar border-b border-myPortfolio-orange w-12 h-0" />
             {
               socialMedia.map((social) => (
