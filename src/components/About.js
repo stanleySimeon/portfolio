@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
-import { Languages, skills } from './Data';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Languages, skills, socialMedia } from './Data';
 import mePicture from '../assets/about-me-picture1.AVIF';
 
 export default function About() {
@@ -35,6 +36,16 @@ export default function About() {
             I bring to every project. If you&#39;re ready to take your project to the next level,
             let&#39;s connect and bring your ideas to life!
           </p>
+          <div className="flex md:hidden justify-start items-center space-x-4">
+            <span className="vertical-bar border-b border-myPortfolio-orange w-12 h-0" />
+            {
+              socialMedia.map((social) => (
+                <a href={social.link} target="_blank" rel="noreferrer" key={social.id}>
+                  <FontAwesomeIcon icon={social.icon} size="2x" className="text-myPortfolio-white w-6 hover:animate-spin" />
+                </a>
+              ))
+            }
+          </div>
         </div>
       </div>
       <div className="marquee w-full hidden md:flex gap-4">

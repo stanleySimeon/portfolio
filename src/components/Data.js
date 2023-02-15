@@ -31,28 +31,46 @@ import npm from '../assets/skills/npm.svg';
 import bookstore from '../assets/screenshots/bookstore.AVIF';
 import mathmagician from '../assets/screenshots/mathmagician.AVIF';
 import space from '../assets/screenshots/space.AVIF';
-import greetings from '../assets/screenshots/greetings.AVIF';
+import netflix from '../assets/screenshots/netflix.AVIF';
 import recipe from '../assets/screenshots/recipe.AVIF';
-import register from '../assets/screenshots/register.AVIF';
+import budget from '../assets/screenshots/budget.AVIF';
 
 const Data = [
   {
     id: 1,
-    image: `${register}`,
-    title: 'Laravel Register',
-    description: 'A simple register and login system built with Laravel and Tailwind CSS. The app allows users to register and login to the app. This is a simple app built to demonstrate the use of Laravel and Tailwind CSS.',
-    technologies: ['Laravel', 'Tailwind CSS', 'PHP', 'MySQL'],
-    liveLink: '',
-    sourceLink: 'https://github.com/stanleySimeon/laravel-login-project',
+    image: `${budget}`,
+    title: 'Budget App',
+    description: 'A mobile Web Application built using Ruby on Rails, which allows users to manage their budget. The application provides a list of transactions associated with a category, helping users to keep track of their expenses and understand where their money is going.',
+    technologies: ['Ruby on Rails', 'PostgreSQL', 'Tailwind CSS'],
+    liveLink: 'https://rails-t5j4.onrender.com/',
+    sourceLink: 'https://github.com/stanleySimeon/Budget_App',
   },
   {
     id: 2,
+    image: `${recipe}`,
+    title: 'Recipe App',
+    description: 'This is a recipe app that allows users to search for recipes by ingredients. It also allows users to add recipes to their favorites and view them later. Users are able to generate a shopping list of ingredients for the recipes they have added to their favorites. the app is built using the following technologies: Ruby, Ruby on Rails, Tailwind CSS and devise to the authentication system.​',
+    technologies: ['Ruby', 'Ruby on Rails', 'Tailwind CSS'],
+    liveLink: 'https://rails-jxd1.onrender.com/',
+    sourceLink: 'https://github.com/stanleySimeon/Recipe_App',
+  },
+  {
+    id: 3,
+    image: `${space}`,
+    title: 'Space Travelers',
+    description: 'A web app for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions. Users can also cancel rockets or leave space missions, and view all reserved rockets and joined missions on their profile page.',
+    technologies: ['React', 'Redux', 'JavaScript', 'Tailwind'],
+    liveLink: 'https://spacextravellers.netlify.app/',
+    sourceLink: 'https://github.com/stanleySimeon/space-travellers',
+  },
+  {
+    id: 4,
     image: `${bookstore}`,
     title: 'Bookstore',
-    description: 'A content management system for a bookstore, built with React and Redux.The app allows users to add and remove books from the store, and filter books by category, and also allows users to add new categories.',
+    description: 'Built with React and Redux, this robust content management system empowers bookstore owners to effortlessly manage their inventory. With its intuitive interface, users can easily add or remove books from their store, as well as filter books by category. Plus, with the ability to add new categories, this app offers unparalleled flexibility and customization. Say goodbye to the hassle of manual inventory management and say hello to an efficient, streamlined workflow with this cutting-edge CMS.',
     technologies: ['React', 'Redux', 'JavaScript', 'CSS'],
     liveLink: 'https://bstore.netlify.app/',
-    sourceLink: 'https://github.com/stanleySimeon/bookstore',
+    sourceLink: 'https://github.com/stanleySimeon/BOOKSTORE',
   },
   {
     id: 3,
@@ -64,31 +82,13 @@ const Data = [
     sourceLink: 'https://github.com/stanleySimeon/maths-magician',
   },
   {
-    id: 4,
-    image: `${space}`,
-    title: 'Space Travelers',
-    description: 'A web app for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions. Users can also cancel rockets or leave space missions, and view all reserved rockets and joined missions on their profile page.',
-    technologies: ['React', 'Redux', 'JavaScript', 'Tailwind'],
-    liveLink: 'https://spacextravellers.netlify.app/',
-    sourceLink: 'https://github.com/stanleySimeon/space-travellers',
-  },
-  {
     id: 5,
-    image: `${greetings}`,
-    title: 'Greetings',
-    description: 'A simple web app that allows users to see personalized greetings, built with React and Redux, also connected to an external API to fetch random greetings built with Ruby on Rails.',
-    technologies: ['React', 'Redux', 'JavaScript', 'Tailwind', 'Ruby on Rails'],
+    image: `${netflix}`,
+    title: 'Netflix Clone',
+    description: 'NETFLIX CLONE is a web app built with React JS and Ruby on Rails offers a user-friendly streaming platform that resembles the original Netflix. It features a catalog of movies and TV shows, user authentication, intuitive search options, video streaming, and playback controls.',
+    technologies: ['React', 'Redux', 'JavaScript', 'Ruby on Rails', 'TailwindCSS'],
     liveLink: 'https://greetngs.netlify.app/',
     sourceLink: 'https://github.com/stanleySimeon/greetings-front-end',
-  },
-  {
-    id: 6,
-    image: `${recipe}`,
-    title: 'Recipe App',
-    description: 'This is a recipe app that allows users to search for recipes by ingredients. It also allows users to add recipes to their favorites and view them later. Users are able to generate a shopping list of ingredients for the recipes they have added to their favorites. the app is built using the following technologies: Ruby, Ruby on Rails, Tailwind CSS and devise to the authentication system.​',
-    technologies: ['Ruby', 'Ruby on Rails', 'Tailwind CSS', 'Devise'],
-    liveLink: '#',
-    sourceLink: 'https://github.com/stanleySimeon/Recipe_App',
   },
 ];
 export const Testimonials = [

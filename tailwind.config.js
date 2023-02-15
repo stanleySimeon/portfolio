@@ -40,7 +40,7 @@ module.exports = {
           circle: '#0A4EFB',
           bgCard: 'rgba(10, 78, 251, 0.05)',
           secondaryText: '#1C88C7',
-          orange: '#DB4D14',
+          orange: '#FF6123',
         },
       },
       container: {
