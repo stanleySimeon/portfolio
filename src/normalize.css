@@ -79,12 +79,6 @@ li,
   color: #0a4efb;
 }
 
-ul.thumbs,
-.carousel-status,
-.carousel .thumbs-wrapper {
-  display: none !important;
-}
-
 .personCard {
   width: 100px !important;
   height: 100px !important;

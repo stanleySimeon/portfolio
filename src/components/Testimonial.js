@@ -1,6 +1,7 @@
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import '../carousel/carousel.css';
 import { Testimonials } from './Data';
 
 export default function Testimonial() {
@@ -22,20 +23,58 @@ export default function Testimonial() {
         </h1>
       </div>
       <Carousel
-        className="carouse md:w-7/12 lg:w-8/12 md:h-auto slide relative w-full text-white"
-        data-bs-ride="carousel"
-        showThumbs={false}
-        showStatus={false}
-        infiniteLoop
+        className="carousel md:w-7/12 md:h-auto slide relative w-full text-white"
+        additionalTransfrom={0}
+        arrows
         autoPlay
-        interval={5000}
-        transitionTime={1000}
+        autoPlaySpeed={10000}
+        centerMode={false}
+        containerClass="container-with-dots"
+        dotListClass=""
+        draggable
+        focusOnSelect={false}
+        infinite
+        itemClass=""
+        keyBoardControl
+        minimumTouchDrag={80}
+        renderButtonGroupOutside={false}
+        renderDotsOutside={false}
+        responsive={{
+          desktop: {
+            breakpoint: {
+              max: 3000,
+              min: 1024,
+            },
+            items: 1,
+            partialVisibilityGutter: 40,
+          },
+          mobile: {
+            breakpoint: {
+              max: 639,
+              min: 0,
+            },
+            items: 1,
+            partialVisibilityGutter: 30,
+          },
+          tablet: {
+            breakpoint: {
+              max: 1024,
+              min: 464,
+            },
+            items: 1,
+            partialVisibilityGutter: 30,
+          },
+        }}
+        showDots
+        sliderClass=""
+        slidesToSlide={1}
+        swipeable
       >
         {
           Testimonials.map((test) => (
             <div key={test.id} className="md:h-auto text-start cursor-default px-2 md:px-8">
               <img src={test.personPicture} alt={test.personName} className="personCard h-12 rounded-full mb-4" />
-              <p className="mb-4 text-md md:text-gray-400">{test.testimonial}</p>
+              <p className="mb-4 text-md md:text-gray-400 text-justify">{test.testimonial}</p>
               <h1 className="text-xl mb-4">
                 <span className="font-medium text-orange-700">
                   <a href={test.linkedin} target="_blank" rel="noreferrer">{test.personName}</a>
