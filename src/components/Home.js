@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className="wow bounceInLeft text-white text-5xl  md:text-7xl lg:text-8xl font-bold">
           Full Stack Developer
         </h1>
-        <p className="wow fadeInUp text-gray-300 text-md lg:text-xl font-light my-4 md:my-6 text-justify">
+        <p className="wow fadeInUp text-myPortfolio-grayLight text-md lg:text-xl font-light my-4 md:my-6 text-justify">
           I am a highly skilled software developer with extensive experience
           in building high-quality products, features, and websites.
           My work speaks for itself, and I am confident that I can help you
@@ -53,7 +53,7 @@ export default function Home() {
         <div data-wow-iteration="1" className="fixed z-20 right-0 left-0 mx-auto wow bounceInRight w-full mt-4 uppercase hidden md:flex md:flex-col text-2xl text-myPortfolio-secondaryText">
           <div className="flex flex-col justify-end items-end space-y-3 md:px-8 lg:px-20">
             <div className="flex flex-col justify-center items-center space-y-4">
-              <span className="vertical-bar border border-myPortfolio-grayLight w-0 h-24" />
+              <span className="vertical-bar border-r border-myPortfolio-orange w-0 h-24" />
               {
                 socialMedia.map((social) => (
                   <a href={social.link} target="_blank" rel="noreferrer" key={social.id}>
