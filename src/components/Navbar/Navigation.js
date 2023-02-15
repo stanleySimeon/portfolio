@@ -56,18 +56,6 @@ export default function Navbar() {
               WORKS
             </Link>
           </li>
-          <li>
-            <Link
-              style={pathname === '/Contact' ? focus : {}}
-              onClick={() => setIsOpen(!isOpen)}
-              smooth
-              duration={200}
-              className="link"
-              to="Contact"
-            >
-              CONTACT
-            </Link>
-          </li>
           <li className="">
             <Link
               style={pathname === '/Testimonials' ? focus : {}}
@@ -78,6 +66,18 @@ export default function Navbar() {
               to="Testimonials"
             >
               TESTIMONIALS
+            </Link>
+          </li>
+          <li>
+            <Link
+              style={pathname === '/Contact' ? focus : {}}
+              onClick={() => setIsOpen(!isOpen)}
+              smooth
+              duration={200}
+              className="link"
+              to="Contact"
+            >
+              CONTACT
             </Link>
           </li>
         </ul>
@@ -132,17 +132,6 @@ export default function Navbar() {
               WORKS
             </Link>
           </li>
-          <li>
-            <Link
-              style={pathname === '/Contact' ? focus : {}}
-              smooth
-              duration={200}
-              className="link"
-              to="Contact"
-            >
-              CONTACT
-            </Link>
-          </li>
           <li className="">
             <Link
               style={pathname === '/Testimonials' ? focus : {}}
@@ -152,6 +141,17 @@ export default function Navbar() {
               to="Testimonials"
             >
               TESTIMONIALS
+            </Link>
+          </li>
+          <li>
+            <Link
+              style={pathname === '/Contact' ? focus : {}}
+              smooth
+              duration={200}
+              className="link"
+              to="Contact"
+            >
+              CONTACT
             </Link>
           </li>
         </ul>
