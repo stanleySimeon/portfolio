@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { Languages, skills } from './Data';
-import mePicture from '../assets/about-me-picture1.png';
+import mePicture from '../assets/about-me-picture1.AVIF';
 
 export default function About() {
   return (
