@@ -1,4 +1,6 @@
+/* eslint-disable max-len */
 import React from 'react';
+import send from '../assets/buttons/send.svg';
 
 export default function Contact() {
   return (
@@ -23,22 +25,29 @@ export default function Contact() {
             I’d love to help with it.
           </p>
         </div>
-        <form action="https://formspree.io/f/xpzbqlab" method="POST" autoComplete="off" id="contact-form" className="w-full h-auto flex flex-col justify-center items-center gap-4 col text-myPortfolio-white">
+        <form action="https://formspree.io/f/xpzbqlab" method="POST" id="contact-form" className="w-full h-auto flex flex-col justify-center items-center gap-4 col text-myPortfolio-white">
           <label htmlFor="name" className="w-full flex flex-col gap-2">
-            <span className="text-xl">Name</span>
-            <input type="text" name="name" placeholder="Full Name" required id="name" className="w-full bg-transparent text-xl border-blue-50 focus:none outline-none" />
+            <span className="text-xl">Full Name</span>
+            <input type="text" name="name" placeholder="Full Name" autoComplete="off" required id="name" className="w-full bg-transparent text-xl border-blue-50 outline-none focus-none" />
           </label>
           <label htmlFor="email" className="w-full flex flex-col gap-2">
             <span className="text-xl">Email</span>
-            <input type="email" name="email" placeholder="Email" required id="email" className="w-full bg-transparent text-xl border-blue-50 outline-none" />
+            <input type="email" name="email" placeholder="Email" autoComplete="off" required id="email" className="w-full bg-transparent text-xl border-blue-50 outline-none" />
           </label>
           <label htmlFor="message" className="w-full flex flex-col gap-2">
             <span className="text-xl">Message</span>
             <textarea name="message" placeholder="Message" required id="message" className="w-full bg-transparent text-xl border-blue-50 outline-none h-32 " />
           </label>
-          <span className="w-full flex justify-end">
-            <button type="submit" className="w-32 uppercase text-white px-4 py-2 bg-orange-600 font-medium">submit</button>
-          </span>
+          <div className="w-full flex justify-end submitBtn">
+            <button type="submit" className="flex overflow-hidden transition-all duration-75 uppercase text-white px-4 py-2 bg-orange-600 font-medium rounded-sm">
+              <div className="wrapper">
+                <div className="wrapper-1">
+                  <img src={send} alt="send" className="block transform origin-center transition-transform duration-300 ease-in-out" />
+                </div>
+              </div>
+              <span className="text ml-2 transition-all duration-500 ease-in-out">Submit</span>
+            </button>
+          </div>
         </form>
       </div>
     </section>

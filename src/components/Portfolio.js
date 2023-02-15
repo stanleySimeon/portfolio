@@ -14,7 +14,7 @@ export default class About extends Component {
     return (
       <section id="Portfolio" className="container-fluid w-full h-auto px-4 lg:px-32 md:px-16 py-16 md:pt-28 flex flex-col justify-center items-center">
         <div className="w-full flex flex-col md:flex-row justify-center md:justify-start items-center md:items-baseline md:gap-4 mb-6 md:mb-16">
-          <h1 className="text-myPortfolio-white text-6xl md:text-7xl lg:text-8xl font-normal md:font-bold">
+          <h1 className="text-myPortfolio-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold">
             Explore my
             {' '}
             <span className="text-orange-600">works</span>
@@ -27,7 +27,7 @@ export default class About extends Component {
             Data.map((data) => (
               <li key={data.id} className="wow fadeInUp h-auto md:w-full lg:w-full md:flex md:justify-center border-myPortfolio-circle md:border-none md:bg-myPortfolio bg-myPortfolio-bgCard border px-2 md:px-0 pt-2 pb-6 md:mb-16 mb-10 md:gap-4 lg:gap-8 rounded-md list-none shadow-md md:odd:flex md:even:flex-row-reverse">
                 <div className="w-full md:w-6/12 h-full lg:w-full flex flex-col gap-2 mb-4 md:flex-col-reverse">
-                  <img src={data.image} alt={data.title} className="rounded md:border md:border-myPortfolio-circle" />
+                  <img src={data.image} alt={data.title} className="rounded md:border md:border-myPortfolio-circle" id="Resize" />
                   <div className="md:flex md:justify-start md:items-baseline md:gap-2">
                     <span className="bar hidden md:flex md:w-20 lg:w-52 bg-myPortfolio-white" />
                     <h1 className="text-myPortfolio-white md:text-myPortfolio-secondaryText text-lg md:text-2xl font-bold uppercase">{data.title}</h1>

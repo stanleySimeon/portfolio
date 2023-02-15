@@ -1,63 +1,158 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Stanley SIMEON - Portfolio
+<div align="center">
+  <h3><b>Stanley SIMEON Portfolio</b></h3>
+</div>
 
-## Built With
+<!-- TABLE OF CONTENTS -->
 
-- `JSX`
-- `JS`
-- `React JS`
-- `WOW JS`
-- `Tailwind CSS`
+# 📗 Table of Contents
 
-## Live Demo
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-[Live Demo Link](https://mstanley.netlify.app)
+<!-- PROJECT DESCRIPTION -->
 
+# 📖 [MY PORTFOLIO] <a name="about-project"></a>
 
+**[MY PORTFOLIO]** is a responsive website, which can help users to explore my tech projects from different devices.
 
-To get a local copy up and running follow these simple example steps.
+## 🛠 Built With <a name="built-with"></a>
+
+ - [React](https://reactjs.org/)
+ - [React Router](https://reactrouter.com/)
+ - [React Scroll](https://www.npmjs.com/package/react-scroll)
+ - [Tailwind CSS](https://tailwindcss.com/)
+ - [Wow.js](https://wowjs.uk/)
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://mstanle.me)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-- npm
-- git
-- any code editor, but vs code can be better.
+
+In order to run this project you need:
+
+```sh
+ npm
+```
 
 ### Setup
-- clone the project `https://github.com/stanleySimeon/mstanley.git`
+
+Clone this repository to your desired folder:
+
+```sh
+  cd your_folder_name (where you want to clone the project)
+  git clone https://github.com/stanleySimeon/mstanley
+```
 
 ### Install
-- run `npm i` to install dependencies
+
+Install this project with:
+
+```sh
+  cd mstanley
+  npm install
+```
 
 ### Usage
-- run `npm start` to start the project
-- run `npm run build` to build the  project
 
+To run the project, execute the following command:
 
-## Author
+```sh
+  npm start
+```
 
-👤 **Stanley SIMEON**
+### Deployment
+
+You can deploy this project using:
+
+  ```sh
+    npm run build
+  ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Author**
 
 - GitHub: [@stanleySimeon](https://github.com/stanleySimeon)
 - Twitter: [@mstanleyme](https://twitter.com/mstanleyme)
-- LinkedIn: [@stanleysimeon](https://www.linkedin.com/in/stanleysimeon/)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/stanleysimeon)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+If you like this project, please give it a ⭐️!
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./MIT.md) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I would like to thank the following people:
+
+  - [@microverse](https://github.com/microverseinc) for the opportunity to learn and grow as a developer
+  - [@brianholt](https://www.linkedin.com/in/btholt/) for his inspiring React course on Frontend Masters
+  - [@joshcomeau](https://github.com/Joshcomeau) for his inspiring css course
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

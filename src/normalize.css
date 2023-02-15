@@ -1,19 +1,18 @@
+
 #Home {
-  background-image: url(./assets/background1.png);
+  background-image: url(./assets/background1.AVIF);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: contain;
   background-attachment: fixed;
 }
 
 @media (max-width: 768px) {
   #About {
-    background-image: url(./assets/about-me-picture-background.png);
+    background-image: url(./assets/about-me-picture-background.AVIF);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    object-fit: cover;
   }
 }
 
@@ -23,11 +22,37 @@
 }
 
 #Contact {
-  background-image: url(./assets/contact_background.png);
+  background-image: url(./assets/contact_background.AVIF);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  #Home {
+    background-image: url(./assets/background1.AVIF);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #About {
+    background-image: url(./assets/about-me-picture-background.AVIF);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #Contact {
+    background-image: url(./assets/contact_background.AVIF);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .faTimes {
@@ -77,4 +102,50 @@ ul.thumbs,
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.control-dots .dot {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel-slider .control-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute !important;
+  top: 95% !important;
+}
+
+.submitBtn button:hover .wrapper-1 {
+  animation: flying-from-left-to-right 0.6s ease-in-out infinite alternate;
+}
+
+button:hover img {
+  transform: translateX(2rem) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5rem);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes flying-from-left-to-right {
+  from {
+    transform: translateY(0.1rem);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
 }
