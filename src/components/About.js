@@ -1,7 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { socialMedia, Languages, skills } from './Data';
+import { Languages, skills } from './Data';
 import mePicture from '../assets/about-me-picture1.png';
 
 export default function About() {
@@ -22,26 +21,20 @@ export default function About() {
             <span className="w-32 md:hidden h-1 bg-myPortfolio-logo" />
           </div>
           <p className="wow bounceIn text-gray-400 text-start md:text-start text-md lg:text-xl font-light mt-6 md:mt-3">
-            <strong>Self-taught Full-Stack Developer</strong>
+            <strong>Full Stack Developer</strong>
             <br />
             <span className="text-green-500 md:p-1 rounded">
               Javascript | React & Redux | Ruby | Ruby on Rails | HTML/CSS
             </span>
             <br />
-            I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+            As a skilled software developer with extensive experience in building complex and scalable software applications,
+            I am confident in my ability to help bring your vision to life.
+            Whether you need a new product, an innovative feature, or a stunning website,
+            I am committed to delivering top-notch results that meet your unique needs and exceed your expectations.
+            Take a look at my impressive portfolio and see for yourself the quality of my work and the level of expertise
+            I bring to every project. If you&#39;re ready to take your project to the next level,
+            let&#39;s connect and bring your ideas to life!
           </p>
-          <span data-wow-iteration="1" className="wow bounceInRight w-full mt-4 uppercase hidden md:flex md:flex-col text-2xl text-myPortfolio-secondaryText">
-            <h2>Let&#39;s connect</h2>
-            <div className="flex justify-start items-center gap-4">
-              {
-                socialMedia.map((social) => (
-                  <a href={social.link} target="_blank" rel="noreferrer" key={social.id}>
-                    <FontAwesomeIcon icon={social.icon} size="2x" className="text-myPortfolio-white w-6 hover:animate-spin" />
-                  </a>
-                ))
-              }
-            </div>
-          </span>
         </div>
       </div>
       <div className="marquee w-full hidden md:flex gap-4">

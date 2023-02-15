@@ -21,6 +21,7 @@ module.exports = {
         'waving-hand': 'wave 2s linear infinite',
       },
       fontFamily: {
+        montserrat: ['Montserrat', ...defaultTheme.fontFamily.sans],
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
         proxima: ['Proxima Nova Bold', ...defaultTheme.fontFamily.sans],
         proximaLight: ['Proxima Nova Light', ...defaultTheme.fontFamily.sans],
@@ -39,6 +40,7 @@ module.exports = {
           circle: '#0A4EFB',
           bgCard: 'rgba(10, 78, 251, 0.05)',
           secondaryText: '#1C88C7',
+          orange: '#DB4D14',
         },
       },
       container: {
