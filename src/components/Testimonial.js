@@ -5,7 +5,7 @@ import { Testimonials } from './Data';
 
 export default function Testimonial() {
   return (
-    <section id="Testimonial" className="bg-black container-fluid w-full h-auto px-4 md:px-16 lg:px-32 py-6 flex flex-col md:flex-row md:justify-between justify-center items-center">
+    <section id="Testimonials" className="bg-black container-fluid w-full h-auto px-4 md:px-16 lg:px-32 py-6 md:py-24 flex flex-col md:flex-row md:justify-between justify-center items-center">
       <div className="w-full md:w-9/12 lg:w-7/12 flex flex-col justify-center md:justify-start items-start md:mb-6 mb-16">
         <h1 className="text-gray-600 text-xl font-normal uppercase pb-6">
           Testimonials
@@ -24,6 +24,12 @@ export default function Testimonial() {
       <Carousel
         className="carouse md:w-7/12 lg:w-8/12 md:h-auto slide relative w-full text-white"
         data-bs-ride="carousel"
+        showThumbs={false}
+        showStatus={false}
+        infiniteLoop
+        autoPlay
+        interval={5000}
+        transitionTime={1000}
       >
         {
           Testimonials.map((test) => (

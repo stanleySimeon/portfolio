@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../../assets/default-monochrome-white.svg';
 import LogoIcon from '../../assets/default-monochrome-icon.svg';
-import resume from '../../assets/files/Stanley_SIMEON_Resume.pdf';
 
 export default function Navbar() {
   const { pathname } = useLocation();
@@ -21,6 +20,18 @@ export default function Navbar() {
     menu = (
       <>
         <ul className="Nav-links-mobile user-select-none fixed top-0 left-0 h-screen w-full flex flex-col justify-center items-center gap-8 bg-myPortfolio">
+          <li>
+            <Link
+              style={pathname === '/' ? focus : {}}
+              onClick={() => setIsOpen(!isOpen)}
+              smooth
+              duration={100}
+              className="link"
+              to="Home"
+            >
+              HOME
+            </Link>
+          </li>
           <li>
             <Link
               style={pathname === '/About' ? focus : {}}
@@ -45,6 +56,18 @@ export default function Navbar() {
               WORKS
             </Link>
           </li>
+          <li className="">
+            <Link
+              style={pathname === '/Testimonials' ? focus : {}}
+              onClick={() => setIsOpen(!isOpen)}
+              smooth
+              duration={200}
+              className="link"
+              to="Testimonials"
+            >
+              TESTIMONIALS
+            </Link>
+          </li>
           <li>
             <Link
               style={pathname === '/Contact' ? focus : {}}
@@ -56,15 +79,6 @@ export default function Navbar() {
             >
               CONTACT
             </Link>
-          </li>
-          <li className="py-1 px-4 bg-myPortfolio-logo hover:bg-white hover:text-myPortfolio-logo rounded-sm">
-            <a
-              target="_blank"
-              href={resume}
-              rel="noreferrer"
-            >
-              GET MY RESUME
-            </a>
           </li>
         </ul>
       </>
@@ -87,6 +101,17 @@ export default function Navbar() {
         <ul className="Nav-links user-select-none hidden md:flex items-center md:gap-12">
           <li>
             <Link
+              style={pathname === '/' ? focus : {}}
+              smooth
+              duration={100}
+              className="link"
+              to="Home"
+            >
+              HOME
+            </Link>
+          </li>
+          <li>
+            <Link
               style={pathname === '/About' ? focus : {}}
               smooth
               duration={300}
@@ -107,6 +132,17 @@ export default function Navbar() {
               WORKS
             </Link>
           </li>
+          <li className="">
+            <Link
+              style={pathname === '/Testimonials' ? focus : {}}
+              smooth
+              duration={200}
+              className="link"
+              to="Testimonials"
+            >
+              TESTIMONIALS
+            </Link>
+          </li>
           <li>
             <Link
               style={pathname === '/Contact' ? focus : {}}
@@ -117,15 +153,6 @@ export default function Navbar() {
             >
               CONTACT
             </Link>
-          </li>
-          <li className="py-1 px-4 bg-myPortfolio-logo hover:bg-white hover:text-myPortfolio-logo rounded-sm">
-            <a
-              target="_blank"
-              href={resume}
-              rel="noreferrer"
-            >
-              GET MY RESUME
-            </a>
           </li>
         </ul>
       </nav>
