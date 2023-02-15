@@ -19,10 +19,8 @@ export default function Contact() {
             <span className="text-green-500">project</span>
             .
           </h1>
-          <p className="text-xl md:text:2xl md:font-bold tracking-wide hover:animate-pulse text-gray-300 text-start md:text-orange-600 md:backdrop-blur-xl p-2">
-            If you have an application you are interested in developing,
-            a feature that you need built or a project that needs coding.
-            I’d love to help with it.
+          <p className="text-md md:text:lg md:font-light tracking-wide hover:animate-pulse text-gray-300 text-start md:text-orange-600 md:backdrop-blur-xl p-2">
+            Looking to bring your next big idea to life? Whether it&#39;s a new application, feature, or project that needs coding, you can count on me to help you make it a reality.
           </p>
         </div>
         <form action="https://formspree.io/f/xpzbqlab" method="POST" id="contact-form" className="w-full h-auto flex flex-col justify-center items-center gap-4 col text-myPortfolio-white">
