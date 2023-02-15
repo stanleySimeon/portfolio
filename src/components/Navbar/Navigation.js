@@ -118,14 +118,16 @@ export default function Navbar() {
               CONTACT
             </Link>
           </li>
-          <li className="py-1 px-4 bg-myPortfolio-logo hover:bg-white hover:text-myPortfolio-logo rounded-sm">
-            <a
-              target="_blank"
-              href={resume}
-              rel="noreferrer"
+          <li className="">
+            <Link
+              style={pathname === '/Testimonials' ? focus : {}}
+              smooth
+              duration={200}
+              className="link"
+              to="Testimonials"
             >
-              GET MY RESUME
-            </a>
+              TESTIMONIALS
+            </Link>
           </li>
         </ul>
       </nav>
