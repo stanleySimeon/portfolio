@@ -6,9 +6,9 @@ import { Testimonials } from './Data';
 
 export default function Testimonial() {
   return (
-    <section id="Testimonials" className="bg-black container-fluid w-full h-auto px-4 md:px-16 lg:px-32 py-6 md:py-24 flex flex-col md:flex-row md:justify-between justify-center items-center">
+    <section id="Testimonials" className="bg-myPorfolio container-fluid w-full h-auto px-4 md:px-16 lg:px-32 py-6 md:py-24 flex flex-col md:flex-row md:justify-between justify-center items-center">
       <div className="w-full md:w-9/12 lg:w-7/12 flex flex-col justify-center md:justify-start items-start md:mb-6 mb-16">
-        <h2 className="text-gray-600 text-xl font-normal uppercase pb-6">
+        <h2 className="text-gray-400 text-xl font-normal uppercase pb-6">
           Testimonials
         </h2>
         <h1 className="wow bounceIn text-white text-5xl sm:text-6xl md:text-7xl font-bold">
@@ -70,12 +70,13 @@ export default function Testimonial() {
         sliderClass=""
         slidesToSlide={1}
         swipeable
+        aria-hidden="true"
       >
         {
           Testimonials.map((test) => (
-            <div key={test.id} className="md:h-auto text-start cursor-default px-2 md:px-8">
+            <div key={test.id} className="md:h-auto text-start cursor-default px-2 md:px-8" aria-hidden="true">
               <img src={test.personPicture} alt={test.personName} className="personCard h-12 rounded-full mb-4" />
-              <p className="mb-4 text-md md:text-gray-400 text-justify">{test.testimonial}</p>
+              <p className="mb-4 text-md md:text-gray-300 text-justify">{test.testimonial}</p>
               <p className="text-lg mb-4">
                 <span className="font-medium text-orange-700">
                   <a href={test.linkedin} target="_blank" rel="noreferrer">{test.personName}</a>

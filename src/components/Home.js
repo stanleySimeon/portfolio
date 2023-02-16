@@ -28,6 +28,7 @@ export default function Home() {
         </p>
         <div className="flex space-x-3 py-2">
           <Link
+            href="About"
             style={pathname === '/About' ? focus : {}}
             smooth
             duration={100}
@@ -39,6 +40,7 @@ export default function Home() {
             GET STARTED
           </Link>
           <Link
+            href="Contact"
             style={pathname === '/Contact' ? focus : {}}
             smooth
             duration={300}
@@ -56,7 +58,7 @@ export default function Home() {
               <span className="vertical-bar border-r border-myPortfolio-orange w-0 h-24" />
               {
                 socialMedia.map((social) => (
-                  <a href={social.link} target="_blank" rel="noreferrer" key={social.id}>
+                  <a href={social.link} target="_blank" rel="noreferrer" key={social.id} aria-label={social.ariaLabel}>
                     <FontAwesomeIcon icon={social.icon} size="2x" className="text-myPortfolio-white w-6 hover:animate-spin" />
                   </a>
                 ))
