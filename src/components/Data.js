@@ -87,8 +87,8 @@ const Data = [
     title: 'Netflix Clone',
     description: 'NETFLIX CLONE is a web app built with React JS and Ruby on Rails offers a user-friendly streaming platform that resembles the original Netflix. It features a catalog of movies and TV shows, user authentication, intuitive search options, video streaming, and playback controls.',
     technologies: ['React', 'Redux', 'JavaScript', 'Ruby on Rails', 'TailwindCSS'],
-    liveLink: 'https://greetngs.netlify.app/',
-    sourceLink: 'https://github.com/stanleySimeon/greetings-front-end',
+    liveLink: 'https://netflit.netlify.app/',
+    sourceLink: 'https://github.com/stanleySimeon/Netflix-Clone',
   },
 ];
 export const Testimonials = [
