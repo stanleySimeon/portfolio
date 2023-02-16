@@ -22,6 +22,7 @@ export default function Navbar() {
         <ul className="Nav-links-mobile user-select-none fixed top-0 left-0 h-screen w-full flex flex-col justify-center items-center gap-8 bg-myPortfolio">
           <li>
             <Link
+              href="Home"
               style={pathname === '/' ? focus : {}}
               onClick={() => setIsOpen(!isOpen)}
               smooth
@@ -34,6 +35,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
+              href="About"
               style={pathname === '/About' ? focus : {}}
               onClick={() => setIsOpen(!isOpen)}
               smooth
@@ -46,6 +48,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
+              href="Portfolio"
               style={pathname === '/Portfolio' ? focus : {}}
               onClick={() => setIsOpen(!isOpen)}
               smooth
@@ -58,6 +61,7 @@ export default function Navbar() {
           </li>
           <li className="">
             <Link
+              href="Testimonials"
               style={pathname === '/Testimonials' ? focus : {}}
               onClick={() => setIsOpen(!isOpen)}
               smooth
@@ -70,6 +74,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
+              href="Contact"
               style={pathname === '/Contact' ? focus : {}}
               onClick={() => setIsOpen(!isOpen)}
               smooth
@@ -90,8 +95,8 @@ export default function Navbar() {
     <header className="wow fadeInDown Navbar bg-black w-full h-auto fixed left-0 top-0 z-50 py-4">
       <nav className="Nav-container w-full flex justify-between items-center px-4 md:px-16 lg:px-32">
         <div className="Nav-logo w-32 cursor-pointer">
-          <Link style={pathname === '/' ? focus : {}} smooth duration={100} className="link hidden md:flex" to="Home"><img className="logo" src={Logo} alt="logo" /></Link>
-          <Link style={pathname === '/' ? focus : {}} smooth duration={100} className="link md:hidden" to="Home"><img className="logo" src={LogoIcon} alt="logo" /></Link>
+          <Link href="Home" style={pathname === '/' ? focus : {}} smooth duration={100} className="link hidden md:flex" to="Home"><img className="logo" src={Logo} alt="logo" /></Link>
+          <Link href="Home" style={pathname === '/' ? focus : {}} smooth duration={100} className="link md:hidden" to="Home"><img className="logo" src={LogoIcon} alt="logo" /></Link>
         </div>
         <span className="Nav-mobile-open-close flex flex-col md:hidden">
           <FontAwesomeIcon className="faBars text-3xl text-white text-normal" icon={faBars} onClick={() => setIsOpen(true)} />
@@ -101,6 +106,7 @@ export default function Navbar() {
         <ul className="Nav-links user-select-none hidden md:flex items-center md:gap-12">
           <li>
             <Link
+              href="Home"
               style={pathname === '/' ? focus : {}}
               smooth
               duration={100}
@@ -112,6 +118,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
+              href="About"
               style={pathname === '/About' ? focus : {}}
               smooth
               duration={300}
@@ -123,6 +130,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
+              href="Portfolio"
               style={pathname === '/Portfolio' ? focus : {}}
               smooth
               duration={300}
@@ -134,6 +142,7 @@ export default function Navbar() {
           </li>
           <li className="">
             <Link
+              href="Testimonials"
               style={pathname === '/Testimonials' ? focus : {}}
               smooth
               duration={200}
@@ -145,6 +154,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
+              href="Contact"
               style={pathname === '/Contact' ? focus : {}}
               smooth
               duration={200}
