@@ -71,7 +71,7 @@ export default function Testimonial() {
         slidesToSlide={1}
         swipeable
         aria-hidden="true"
-        aria-label="Slider"
+        aria-label="Sliding carousel of testimonials"
       >
         {
           Testimonials.map((test) => (
