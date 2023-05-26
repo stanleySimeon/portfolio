@@ -42,7 +42,7 @@ const Data = [
     title: 'Budget App',
     description: 'A mobile Web Application built using Ruby on Rails, which allows users to manage their budget. The application provides a list of transactions associated with a category, helping users to keep track of their expenses and understand where their money is going.',
     technologies: ['Ruby on Rails', 'PostgreSQL', 'Tailwind CSS'],
-    liveLink: 'https://rails-t5j4.onrender.com/',
+    liveLink: 'https://bdgt-app.herokuapp.com/',
     sourceLink: 'https://github.com/stanleySimeon/Budget_App',
   },
   {
