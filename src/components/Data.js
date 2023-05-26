@@ -51,7 +51,7 @@ const Data = [
     title: 'Recipe App',
     description: 'This is a recipe app that allows users to search for recipes by ingredients. It also allows users to add recipes to their favorites and view them later. Users are able to generate a shopping list of ingredients for the recipes they have added to their favorites. the app is built using the following technologies: Ruby, Ruby on Rails, Tailwind CSS and devise to the authentication system.​',
     technologies: ['Ruby', 'Ruby on Rails', 'Tailwind CSS'],
-    liveLink: 'https://rails-jxd1.onrender.com/',
+    liveLink: 'https://recp-app.herokuapp.com/',
     sourceLink: 'https://github.com/stanleySimeon/Recipe_App',
   },
   {
