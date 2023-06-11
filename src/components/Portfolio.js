@@ -8,7 +8,7 @@ const About = () => {
 
   useEffect(() => {
     new WOW.WOW({
-      live: false,
+      live: true,
     }).init();
     setData(Data);
   }, []);
