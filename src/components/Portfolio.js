@@ -1,15 +1,11 @@
 /* eslint-disable max-len */
 import React, { useState, useEffect } from 'react';
-import WOW from 'wowjs';
 import Data from './Data';
 
 const About = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    new WOW.WOW({
-      live: true,
-    }).init();
     setData(Data);
   }, []);
 
