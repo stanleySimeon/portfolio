@@ -60,7 +60,7 @@ const Data = [
     title: 'Space Travelers',
     description: 'A web app for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions. Users can also cancel rockets or leave space missions, and view all reserved rockets and joined missions on their profile page.',
     technologies: ['React', 'Redux', 'JavaScript', 'Tailwind'],
-    liveLink: 'https://spacextravellers.netlify.app/',
+    liveLink: 'https://space-travellers.vercel.app',
     sourceLink: 'https://github.com/stanleySimeon/space-travellers',
   },
   {
@@ -69,7 +69,7 @@ const Data = [
     title: 'Bookstore',
     description: 'Built with React and Redux, this robust content management system empowers bookstore owners to effortlessly manage their inventory. With its intuitive interface, users can easily add or remove books from their store, as well as filter books by category. Plus, with the ability to add new categories, this app offers unparalleled flexibility and customization. Say goodbye to the hassle of manual inventory management and say hello to an efficient, streamlined workflow with this cutting-edge CMS.',
     technologies: ['React', 'Redux', 'JavaScript', 'CSS'],
-    liveLink: 'https://bstore.netlify.app/',
+    liveLink: 'https://bookstore-three-sand.vercel.app',
     sourceLink: 'https://github.com/stanleySimeon/BOOKSTORE',
   },
   {
@@ -78,7 +78,7 @@ const Data = [
     title: 'Calculator',
     description: 'A calculator app built with React and Redux. The app allows users to perform basic arithmetic operations, including addition, subtraction, division, and multiplication, and chaining and nesting of operations (as well as the +/- button which changes a negative number positive and vice-versa).',
     technologies: ['React', 'Redux', 'JavaScript', 'CSS'],
-    liveLink: 'https://kalkilanm.netlify.app/',
+    liveLink: 'https://kalkilanm.vercel.app',
     sourceLink: 'https://github.com/stanleySimeon/maths-magician',
   },
   {
@@ -87,7 +87,7 @@ const Data = [
     title: 'Netflix Clone',
     description: 'NETFLIX CLONE is a web app built with React JS and Ruby on Rails offers a user-friendly streaming platform that resembles the original Netflix. It features a catalog of movies and TV shows, user authentication, intuitive search options, video streaming, and playback controls.',
     technologies: ['React', 'Redux', 'JavaScript', 'Ruby on Rails', 'TailwindCSS'],
-    liveLink: 'https://netflit.netlify.app/',
+    liveLink: 'https://netflix-clone-gold-iota.vercel.app`',
     sourceLink: 'https://github.com/stanleySimeon/Netflix-Clone',
   },
 ];
