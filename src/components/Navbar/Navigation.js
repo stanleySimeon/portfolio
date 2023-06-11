@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,6 +13,12 @@ export default function Navbar() {
   };
 
   const [isOpen, setIsOpen] = useState(false);
+  const [active, setActive] = useState();
+
+  useEffect(() => {
+    setActive(pathname);
+  }, [pathname]);
+
   let menu;
   let close;
 
@@ -21,7 +27,7 @@ export default function Navbar() {
       <>
         <ul className="Nav-links-mobile user-select-none fixed top-0 left-0 h-screen w-full flex flex-col justify-center items-center gap-8 bg-myPortfolio">
           <li>
-            <Link
+            {/* <Link
               href="Home"
               style={pathname === '/' ? focus : {}}
               onClick={() => setIsOpen(!isOpen)}
@@ -31,7 +37,8 @@ export default function Navbar() {
               to="Home"
             >
               HOME
-            </Link>
+            </Link> */}
+            <Link to="/" className={active === '/' ? 'active' : ''}>Home</Link>
           </li>
           <li>
             <Link

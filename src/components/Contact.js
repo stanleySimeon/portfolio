@@ -23,21 +23,21 @@ export default function Contact() {
             Looking to bring your next big idea to life? Whether it&#39;s a new application, feature, or project that needs coding, you can count on me to help you make it a reality.
           </p>
         </div>
-        <form action="https://formspree.io/f/xpzbqlab" method="POST" id="contact-form" className="w-full h-auto flex flex-col justify-center items-center gap-4 col text-myPortfolio-white">
+        <form action="https://formspree.io/f/xpzbqlab" method="POST" id="contact-form" className="w-full h-auto flex flex-col justify-center items-center gap-4 col text-myPortfolio-white z-40">
           <label htmlFor="name" className="w-full flex flex-col gap-2">
             <span className="text-xl">Full Name</span>
-            <input type="text" name="name" placeholder="Full Name" autoComplete="off" required id="name" className="w-full bg-transparent text-xl border-blue-50 outline-none focus-none" />
+            <input type="text" name="name" placeholder="Full Name" autoComplete="off" required id="name" className="w-full bg-transparent text-xl border-blue-50 outline-none focus-none rounded-md" />
           </label>
           <label htmlFor="email" className="w-full flex flex-col gap-2">
             <span className="text-xl">Email</span>
-            <input type="email" name="email" placeholder="Email" autoComplete="off" required id="email" className="w-full bg-transparent text-xl border-blue-50 outline-none" />
+            <input type="email" name="email" placeholder="Email" autoComplete="off" required id="email" className="w-full bg-transparent text-xl border-blue-50 outline-none rounded-md" />
           </label>
           <label htmlFor="message" className="w-full flex flex-col gap-2">
             <span className="text-xl">Message</span>
-            <textarea name="message" placeholder="Message" required id="message" className="w-full bg-transparent text-xl border-blue-50 outline-none h-32 " />
+            <textarea name="message" placeholder="Message" required id="message" className="w-full bg-transparent text-xl border-blue-50 outline-none h-32 rounded-md" />
           </label>
           <div className="w-full flex justify-end submitBtn">
-            <button type="submit" className="flex overflow-hidden transition-all duration-75 uppercase text-white px-4 py-2 bg-orange-600 font-medium rounded-sm">
+            <button type="submit" className="flex overflow-hidden transition-all duration-75 uppercase text-white px-4 py-2 bg-orange-600 font-medium rounded-md">
               <div className="wrapper">
                 <div className="wrapper-1">
                   <img src={send} alt="send" className="block transform origin-center transition-transform duration-300 ease-in-out" />

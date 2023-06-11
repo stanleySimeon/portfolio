@@ -7,7 +7,7 @@ import Navbar from './Navbar/Navigation';
 
 export default function Home() {
   const { pathname } = useLocation();
-  const focus = {
+  const opacity = {
     opacity: 1,
   };
   return (
@@ -26,30 +26,28 @@ export default function Home() {
           with a proven track record of success, look no further.
           Let&#39;s bring your vision to life, contact me now.
         </p>
-        <div className="flex space-x-3 py-2">
+        <div className="flex space-x-3 md:space-x-4 py-2 md:z-40">
           <Link
-            href="About"
-            style={pathname === '/About' ? focus : {}}
+            style={pathname === '/About' ? opacity : {}}
             smooth
             duration={100}
             to="About"
             data-wow-duration=".5s"
             data-wow-delay=".8s"
-            className="wow fadeInUp bg-myPortfolio-logo text-white text-sm md:text-md py-2 px-2 rounded-sm select-none cursor-pointer"
+            className="wow fadeInUp bg-myPortfolio-logo text-white text-sm md:text-md text-center py-2 px-2 md:px-8 rounded-md select-none cursor-pointer"
           >
-            GET STARTED
+            <span>GET STARTED</span>
           </Link>
           <Link
-            href="Contact"
-            style={pathname === '/Contact' ? focus : {}}
+            style={pathname === '/Contact' ? opacity : {}}
             smooth
-            duration={300}
+            duration={100}
             to="Contact"
             data-wow-duration=".8s"
             data-wow-delay=".9s"
-            className="wow fadeInUp border border-bg-myPortfolio-white text-myPortfolio-white text-sm md:text-md py-2 px-4 rounded-sm select-none cursor-pointer"
+            className="wow fadeInUp border border-bg-myPortfolio-white text-myPortfolio-white text-sm md:text-md text-center py-2 px-2 md:px-10 rounded-md select-none cursor-pointer"
           >
-            LET&#39;S TALK
+            <span>LET&#39;S TALK</span>
           </Link>
         </div>
         <div data-wow-iteration="1" className="fixed z-20 right-0 left-0 mx-auto wow bounceInRight w-full mt-4 uppercase hidden md:flex md:flex-col text-2xl text-myPortfolio-secondaryText">

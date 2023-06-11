@@ -34,6 +34,10 @@ import space from '../assets/screenshots/space.AVIF';
 import netflix from '../assets/screenshots/netflix.AVIF';
 import recipe from '../assets/screenshots/recipe.AVIF';
 import budget from '../assets/screenshots/budget.AVIF';
+import moise from '../assets/moise.AVIF';
+import denis from '../assets/denis.AVIF';
+import pascal from '../assets/pascal.AVIF';
+import chia from '../assets/chia.AVIF';
 
 const Data = [
   {
@@ -87,7 +91,7 @@ const Data = [
     title: 'Netflix Clone',
     description: 'NETFLIX CLONE is a web app built with React JS and Ruby on Rails offers a user-friendly streaming platform that resembles the original Netflix. It features a catalog of movies and TV shows, user authentication, intuitive search options, video streaming, and playback controls.',
     technologies: ['React', 'Redux', 'JavaScript', 'Ruby on Rails', 'TailwindCSS'],
-    liveLink: 'https://netflix-clone-gold-iota.vercel.app`',
+    liveLink: 'https://netflix-clone-stanleysimeon.vercel.app',
     sourceLink: 'https://github.com/stanleySimeon/Netflix-Clone',
   },
 ];
@@ -96,7 +100,7 @@ export const Testimonials = [
     id: 1,
     personName: 'Moïse Mulungu',
     testimonial: "Stanley is exactly the sort of software developer that any company would love. I worked with him building a couple of Single Page Applications (SPA), using JavaScript and React, Boostrap, and more, while struggling with a tough data structures problem, and within a few hours, he'd managed to explain a concept I'd been struggling with for days. He has a great way of simplifying complex problems into bite-sized pieces, and as a junior developer, that was really valuable for me. He is also just a fun person to chat with! If you need to get a job done simply and efficiently, Stanley is definitely the right person for you.",
-    personPicture: 'https://media.licdn.com/dms/image/C4D03AQEnkWR7HpGrjg/profile-displayphoto-shrink_400_400/0/1650626892318?e=1681344000&v=beta&t=M0r1Cbaclt_-nDMfj-lMiRQpT8MrzuVcbwUafHyGROY',
+    personPicture: `${moise}`,
     linkedin: 'https://www.linkedin.com/in/moisemulungu/',
     status: 'Full-stack Web Developer',
   },
@@ -104,7 +108,7 @@ export const Testimonials = [
     id: 2,
     personName: 'Pascal Kabika',
     testimonial: 'Stanley is a joy to work with in software development. He handled our Web page capstone project at Microverse, with aplomb and diligence, displaying the ability to follow creative direction while adding his own creative input in a diplomatic and useful way to get a very well working and beautiful work. His work led to an increase in click-throughs. I recommend him to anyone who needs a diligent Full-stack software developer, a designer of mobile and website, a better javaScript understanding developer, and Website work.',
-    personPicture: 'https://avatars.githubusercontent.com/u/82823425?v=4',
+    personPicture: `${pascal}`,
     linkedin: 'https://www.linkedin.com/in/pascal-kabika/',
     status: 'Full-stack Software Developer',
   },
@@ -112,7 +116,7 @@ export const Testimonials = [
     id: 3,
     personName: 'Chia Carlyle',
     testimonial: "Stanley is a fantastic software engineer, and his detail-oriented approach made him a pleasure to work with. We pair-programmed extensively together while enrolled in Microverse, and during that time his work ethic blew me away. Stanley views writing clean, accessible code as a calling, and he's excellent at identifying areas where we can improve UI.He's also super friendly; by the time our project was done, I felt like we'd known each other for years.I can't recommend him enough!",
-    personPicture: 'https://media.licdn.com/dms/image/C4D03AQHGwNW4bzGM9Q/profile-displayphoto-shrink_400_400/0/1641141037543?e=1681344000&v=beta&t=9L9RexCWI8vEXkQ-MsMmTR6CXVyY0NBGmYqyettdiZ4',
+    personPicture: `${chia}`,
     linkedin: 'https://www.linkedin.com/in/chia-carlyle/',
     status: 'Full-stack Software Developer',
   },
@@ -120,7 +124,7 @@ export const Testimonials = [
     id: 4,
     personName: 'Denis Lafontant',
     testimonial: 'Stanley is a hard worker and a dedicated developer. I was Stanley Code and Project Reviewer at Microverse, I can tell by the quality of his work and his ability to be open to suggestions make him a great developer, and for sure he is the right guy you want on your team.',
-    personPicture: 'https://media.licdn.com/dms/image/C4E03AQHTuP7F01foaw/profile-displayphoto-shrink_800_800/0/1626144070046?e=1679529600&v=beta&t=c-HmNbEbPnTnpbw4uI1fMlCtT222J1JZWAZoxWVjk3M',
+    personPicture: `${denis}`,
     linkedin: 'https://www.linkedin.com/in/denis-lafontant/',
     status: 'Full-stack Web Developer',
   },
