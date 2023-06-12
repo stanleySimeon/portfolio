@@ -8,16 +8,18 @@ import video from '../assets/bg2.mp4';
 
 export default function Home() {
   const { pathname } = useLocation();
+
   const opacity = {
     opacity: 1,
   };
+
   return (
     <section id="Home" className="container-fluid relative w-full h-screen">
       <Navbar />
       <video autoPlay loop muted className="absolute top-0 left-0 mx-auto z-0 w-full h-full object-cover">
         <source src={video} type="video/mp4" />
       </video>
-      <div className="absolute left-0 top-0 w-full h-full px-4 md:mt-0 md:px-16 lg:px-32 flex flex-col justify-center bg-black bg-opacity-75 z-40">
+      <div className="absolute left-0 top-0 w-full h-full px-4 md:mt-0 md:px-16 lg:px-32 flex flex-col justify-center bg-black bg-opacity-75">
         <div className="md:w-10/12 lg:w-7/12 md:bg-blue flex flex-col space-y-3 md:space-y-4 pt-20 sm:pt-0">
           <span className="text-myPortfolio-orange font-thin wow bounceInLeft text-5xl  md:text-7xl">I&#39;m Stanley</span>
           <h1 className="wow bounceInLeft text-white text-5xl  md:text-7xl font-bold">
@@ -31,7 +33,7 @@ export default function Home() {
             with a proven track record of success, look no further.
             Let&#39;s bring your vision to life, contact me now.
           </p>
-          <div className="flex space-x-3 md:space-x-4 py-2">
+          <div className="flex space-x-3 md:space-x-4 py-2 z-40">
             <Link
               style={pathname === '/About' ? opacity : {}}
               smooth
