@@ -10,7 +10,7 @@ const About = () => {
   }, []);
 
   return (
-    <section id="Portfolio" className="container-fluid w-full h-auto px-4 lg:px-32 md:px-16 py-16 md:pt-28 flex flex-col justify-center items-center">
+    <section id="Portfolio" className="container-fluid w-full h-auto px-4 lg:px-32 xl:px-96 md:px-16 py-16 md:pt-28 flex flex-col justify-center items-center">
       <div className="w-full flex flex-col md:flex-row justify-start md:items-baseline md:gap-4 mb-6 md:mb-16">
         <h2 className="text-orange-600 text-5xl sm:text-6xl font-bold">
           My

@@ -6,7 +6,7 @@ import mePicture from '../assets/about-me-picture1.AVIF';
 
 export default function About() {
   return (
-    <section id="About" className="container-fluid w-full h-auto px-4 md:px-16 lg:px-32 py-16 md:pt-32 flex flex-col justify-center items-center bg-black">
+    <section id="About" className="container-fluid w-full h-auto px-4 md:px-16 lg:px-32 xl:px-96 py-16 md:pt-32 flex flex-col justify-center items-center bg-black">
       <div className="bg md:flex justify-between md:gap-6 md:mb-12">
         <div className="hidden wow slideInLeft md:block about-me-picture-desktop w-6/12 md:h-auto md:bg-myPortfolio rounded">
           <img src={mePicture} alt="Stanley SIMEON" className="w-full h-80 object-cover rounded" />

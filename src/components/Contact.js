@@ -4,7 +4,7 @@ import send from '../assets/buttons/send.svg';
 
 export default function Contact() {
   return (
-    <section id="Contact" className="contact container-fluid py-16 px-4 md:px-16 lg:px-32 md:pt-32 md:flex justify-center">
+    <section id="Contact" className="contact container-fluid py-16 px-4 md:px-16 lg:px-32 xl:px-96 md:pt-32 md:flex justify-center">
       <div className="contact__container w-full md:w-full flex flex-col md:flex-row justify-center md:justify-between md:items-start items-center md:gap-10 z-40">
         <div className="w-full md:w-10/12 lg:w-11/12 flex flex-col justify-center items-center md:items-start md:text-start text-center text-myPortfolio-white mb-10 md:gap-10">
           <div className="hidden md:flex flex-col md:flex-row md:justify-start justify-center items-center md:items-baseline md:gap-2 mb-6 md:mb-2">

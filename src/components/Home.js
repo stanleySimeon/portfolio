@@ -19,7 +19,7 @@ export default function Home() {
       <video autoPlay loop muted className="absolute top-0 left-0 mx-auto z-0 w-full h-full object-cover">
         <source src={video} type="video/mp4" />
       </video>
-      <div className="absolute left-0 top-0 w-full h-full px-4 md:mt-0 md:px-16 lg:px-32 flex flex-col justify-center bg-black bg-opacity-75">
+      <div className="absolute left-0 top-0 w-full h-full px-4 md:mt-0 md:px-16 lg:px-32 xl:px-96 flex flex-col justify-center bg-black bg-opacity-75">
         <div className="md:w-10/12 lg:w-7/12 md:bg-blue flex flex-col space-y-3 md:space-y-4 pt-20 sm:pt-0">
           <span className="text-myPortfolio-orange font-thin wow bounceInLeft text-5xl  md:text-7xl">I&#39;m Stanley</span>
           <h1 className="wow bounceInLeft text-white text-5xl  md:text-7xl font-bold">

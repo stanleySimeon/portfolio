@@ -6,7 +6,7 @@ import { Testimonials } from './Data';
 
 export default function Testimonial() {
   return (
-    <section id="Testimonials" className="bg-myPorfolio container-fluid w-full h-auto px-4 md:px-16 lg:px-32 py-6 md:py-24 flex flex-col md:flex-row md:justify-between justify-center items-center">
+    <section id="Testimonials" className="bg-myPorfolio container-fluid w-full h-auto px-4 md:px-16 lg:px-32 xl:px-96 py-6 md:py-24 flex flex-col md:flex-row md:justify-between justify-center items-center">
       <div className="w-full md:w-9/12 lg:w-7/12 flex flex-col justify-center md:justify-start items-start md:mb-6 mb-16">
         <h2 className="text-gray-400 text-xl font-normal uppercase pb-6">
           Testimonials

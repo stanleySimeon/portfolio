@@ -94,7 +94,7 @@ export default function Navbar() {
 
   return (
     <header className="wow fadeInDown Navbar bg-black bg-opacity-50 w-full h-auto fixed left-0 top-0 z-50 py-4">
-      <nav className="Nav-container w-full flex justify-between items-center px-4 md:px-16 lg:px-32">
+      <nav className="Nav-container w-full flex justify-between items-center px-4 md:px-16 lg:px-32 xl:px-96">
         <div className="Nav-logo w-32 cursor-pointer">
           <Link href="Home" style={pathname === '/' ? focus : {}} smooth duration={100} className="link hidden md:flex" to="Home"><img className="logo" src={Logo} alt="logo" /></Link>
           <Link href="Home" style={pathname === '/' ? focus : {}} smooth duration={100} className="link md:hidden" to="Home"><img className="logo" src={LogoIcon} alt="logo" /></Link>
